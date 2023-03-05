@@ -1,5 +1,5 @@
 import React from "react"
-import AknNoBkg from '../assets/AknNoBckg-copy.png'
+import AknNoBkg from '../assets/matt.png'
 
 function MainContent() {
   return (

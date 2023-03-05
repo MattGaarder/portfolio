@@ -1,12 +1,13 @@
 import React from "react";
+import "./NavBar.css";
 
-function NavBar(){
+function NavBar() {
     return (
       <>
         <header>
-          <nav>
+          <nav className="nav">
             <h1>Gaarder</h1>
-            <ul>
+            <ul className="nav-items">
               <li>About</li>
               <li>Projects</li>
               <li>Contacts</li>
