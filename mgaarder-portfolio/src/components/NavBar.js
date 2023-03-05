@@ -1,11 +1,20 @@
 import React from "react";
 
 function NavBar(){
-    return <>
-    <div>
-        <h1>This is where my navbar is going to go.</h1>
-    </div>
-    </>
+    return (
+      <>
+        <header>
+          <nav>
+            <h1>Gaarder</h1>
+            <ul>
+              <li>About</li>
+              <li>Projects</li>
+              <li>Contacts</li>
+            </ul>
+          </nav>
+        </header>
+      </>
+    );
 }
 
 export default NavBar

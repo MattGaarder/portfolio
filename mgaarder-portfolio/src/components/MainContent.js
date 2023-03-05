@@ -1,12 +1,16 @@
-import React from "react";
+import React from "react"
+import AknNoBkg from '../assets/AknNoBckg-copy.png'
 
 function MainContent() {
-  return <>
-    <ul>
-      <li>Hello World!</li>
-      <li>Second Item!</li>
-    </ul>
-  </>;
+  return (
+    <>
+      <img src={AknNoBkg} alt="my AknNoBkg" width="280px" />
+      <ul>
+        <li>Project 1</li>
+        <li>Project 2</li>
+      </ul>
+    </>
+  );
 }
 
-export default MainContent;
+export default MainContent
