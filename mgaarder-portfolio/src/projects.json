@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "moovie-search",
+    "gif": "/assets/scrnshot.png",
+    "deployed": "https://mattgaarder.github.io/moovie-search/",
+    "repo": "https://github.com/MattGaarder/moovie-search"
+  },
+  {
+    "id": 2,
+    "title": "weather-dashboard",
+    "gif": "/assets/moovie-widescreen.png",
+    "deployed": "https://mattgaarder.github.io/weather-dashboard/",
+    "repo": "https://github.com/MattGaarder/weather-dashboard"
+  }
+]

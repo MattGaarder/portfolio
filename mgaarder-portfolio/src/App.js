@@ -1,16 +1,25 @@
 import React from "react";
-import ContactCard from "./components/ContactCard";
+import ProjectCard from "./components/ProjectCard/ProjectCard";
 import MainContent from "./components/MainJumbo/MainContent";
 import NavBar from "./components/NavBar/NavBar";
+import projects from "./projects.json";
 
 function App() {
   return (
-  <div className="container">
-    <NavBar />
-    <MainContent />;
-    <ContactCard />
-  </div>
-  )
+    <div className="container">
+      <NavBar />
+      <MainContent />
+      {projects.map((p) => (
+        <ProjectCard
+          key={p.id}
+          title={p.title}
+          gif={p.gif}
+          deployed={p.deployed}
+          repo={p.repo}
+        />
+      ))}
+    </div>
+  );
 }
 
 export default App;
