@@ -6,11 +6,11 @@ function NavBar() {
       <>
         <header>
           <nav className="nav">
-            <h1>Gaarder</h1>
+            <h1 className="logo">G.</h1>
             <ul className="nav-items">
               <li>About</li>
               <li>Projects</li>
-              <li>Contacts</li>
+              <li>Contact</li>
             </ul>
           </nav>
         </header>

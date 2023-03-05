@@ -1,6 +1,6 @@
 import React from "react";
 import ContactCard from "./components/ContactCard";
-import MainContent from "./components/MainContent";
+import MainContent from "./components/MainJumbo/MainContent";
 import NavBar from "./components/NavBar/NavBar";
 
 function App() {
