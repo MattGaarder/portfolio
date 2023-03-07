@@ -2,24 +2,30 @@
 
 body {
     /* background-color: aqua; */
-    background-image: url("../../assets/MattBnW.png");
-    background-size: 55%;
+    background-image: url("../../assets/opcaity-down-matt.png");
+    background-size: 65%;
     background-repeat: no-repeat;
-    background-position-x: -10%;
-    background-position-y: 40%;
+    background-position-x: -30%;
+    background-position-y: 45%;
+    /* position: relative; */
 }
 
 .jumbo {
     text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 
 }
 
 .jumbo-content {
-    background-color: #f5f5f5;
+    background-color: #fef0da;
+    background-image: url("../../assets/clean-gray-paper.png");
     padding: 5%;
     padding-right: 10%;
     display: inline-block;
     border-radius: 0 0 200px 0;
+    justify-content: flex-end;
 }
 
 .jumbo-header {
@@ -28,6 +34,15 @@ body {
 
 .jumbo-subsubheader {
     padding-top: 2%;
+}
+
+.clean-grey {
+    padding: 2rem;
+    /* padding-right: 0%; */
+    width: 50vw;
+    display: inline;
+    position: absolute;
+
 }
 
 .icons {

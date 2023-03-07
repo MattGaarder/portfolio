@@ -5,15 +5,15 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
-
+import cleanGrey from '../../assets/clean-gray-paper.png'
 
 
 // import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 // import AknNoBkg from '../assets/mattBnW.png'
 
 function MainContent() {
-  return (
-    <>
+  return (<>
+    <img className="clean-grey" src={ cleanGrey }></img>
       <div className="jumbo">
         <div className="jumbo-content">
           <h1 className="jumbo-header">Hi, I'm Matt,</h1>
@@ -32,10 +32,9 @@ function MainContent() {
             Alternatively, continue exploring to see <br></br> some of the
             projects I am most proud of.
           </h2>
-          <ul className="important"></ul>
         </div>
       </div>
-    </>
+      </>
   );
 }
 
