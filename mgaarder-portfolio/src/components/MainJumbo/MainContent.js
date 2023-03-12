@@ -14,6 +14,7 @@ import cleanGrey from '../../assets/clean-gray-paper.png'
 function MainContent() {
   return (<>
     <img className="clean-grey" src={ cleanGrey }></img>
+    <h1 className="jumbo-header-2">Hi, I'm Matt,</h1>
       <div className="jumbo">
         <div className="jumbo-content">
           <h1 className="jumbo-header">Hi, I'm Matt,</h1>
@@ -21,17 +22,17 @@ function MainContent() {
           <h2 className="jumbo-subsubheader">
             Thank you for visiting my portfolio!
           </h2>
-          <h2>Below are some of the important links.</h2>
+          <h2 className="whisper">(or straight to the important stuff)</h2>
           <div className="icons">
             <FontAwesomeIcon className="icon" icon={faGithub} />
             <FontAwesomeIcon className="icon" icon={faLinkedin} />
             <FontAwesomeIcon className="icon" icon={faTwitter} />
             <FontAwesomeIcon className="icon" icon={faFilePdf} />
           </div>
-          <h2>
+          {/* <h2>
             Alternatively, continue exploring to see <br></br> some of the
             projects I am most proud of.
-          </h2>
+          </h2> */}
         </div>
       </div>
       </>

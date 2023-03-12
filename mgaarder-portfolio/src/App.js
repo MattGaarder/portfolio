@@ -11,7 +11,7 @@ function App() {
       <MainContent />
       {projects.map((p) => (
         <ProjectCard
-          key={p.id}
+          id={p.id}
           title={p.title}
           gif={p.gif}
           deployed={p.deployed}

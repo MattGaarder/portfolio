@@ -1,0 +1,15 @@
+.project-card {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin: 1rem;
+    border: solid black 4px;
+    background-color: white;
+}
+
+.project-1 {
+    width: 90%;
+    align-items: flex-end;
+    margin-top: 50%;
+}

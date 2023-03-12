@@ -1,22 +1,24 @@
 import React from "react";
+import "./ProjectCard.css"
 // import ReactDOM from "react-dom";
 
 function ProjectCard(props) {
+  console.log(props)
     return (
-      <div className="project-card">
+      <div className={`project-card project-${props.id}`}>
         <div className="img-container">
-          <img alt={props.title} src={props.gif} />
+          <img className="project-gif" alt={props.title} src={props.gif} />
         </div>
         <div className="content">
           <ul>
             <li>
-              <strong>{props.title}</strong>
+              <strong className="title">{props.title}</strong>
             </li>
             <li>
-              <strong>Deployed:</strong> {props.deployed}
+              <strong className="deployed-link">Deployed:</strong> {props.deployed}
             </li>
             <li>
-              <strong>Repository:</strong> {props.repo}
+              <strong className="repo-link">Repository:</strong> {props.repo}
             </li>
           </ul>
         </div>
