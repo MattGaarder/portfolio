@@ -1,16 +1,51 @@
 [
   {
     "id": 1,
-    "title": "moovie-search",
-    "gif": "/assets/scrnshot.png",
+    "title": "Coding Quiz",
+    "gif": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTBmNDU2YTg0NTQ4MmYyOGYxMjk5Zjg1YmY5YmViM2M1NWJlMWVkMiZjdD1n/Du74AnR0Y2p09Lym86/giphy.gif",
     "deployed": "https://mattgaarder.github.io/moovie-search/",
     "repo": "https://github.com/MattGaarder/moovie-search"
   },
   {
     "id": 2,
-    "title": "weather-dashboard",
-    "gif": "/assets/moovie-widescreen.png",
+    "title": "README.md Generator",
+    "gif": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGM3MDVmYTRiZDkyMDM4YmQ5OWQzNWUzMWY1NzA5MmRjYjA2Yjg5ZSZjdD1n/HbVX9TkQKmc0mOLV4C/giphy.gif",
     "deployed": "https://mattgaarder.github.io/weather-dashboard/",
     "repo": "https://github.com/MattGaarder/weather-dashboard"
+  },
+  {
+    "id": 3,
+    "title": "Weather Dashboard",
+    "gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTBmNmVjODI4NmM1NDgzYThjYjgyZDgxMmNlYTAzNThkYzBhZDAxZiZjdD1n/wZSaxEBZAxF1K5yrxy/giphy.gif",
+    "deployed": "https://mattgaarder.github.io/daily-planner/",
+    "repo": "https://github.com/MattGaarder/daily-planner"
+  },
+  {
+    "id": 4,
+    "title": "Random Password Generator",
+    "gif": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTdjOGI2MjRmMmI4Y2NmNGIyMzU2NTIwZjI4YjA0M2MyNTYwYjhlZiZjdD1n/mTkFZnQ8EvNSXfV9xP/giphy.gif",
+    "deployed": "https://github.com/MattGaarder/code-quiz",
+    "repo": "https://github.com/MattGaarder/code-quiz"
+  },
+  {
+    "id": 5,
+    "title": "Work Day Scheduler",
+    "gif": "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzFkZjk4NzUwYzBmMDI1YzgzYzQ5YzQxMTE2ZTg4NjVmYjI2ZTg1ZCZjdD1n/pgvPIQVTNPtA2nL1S1/giphy.gif",
+    "deployed": "https://mattgaarder.github.io/weather-dashboard/",
+    "repo": "https://github.com/MattGaarder/weather-dashboard"
+  },
+  {
+    "id": 2,
+    "title": "Moo-vie Comparator",
+    "gif": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDdkNjkyN2FiNmMxODUzMTVkN2ExOWRiOTZhMzYyODkxYmMwMDBlNiZjdD1n/32AslOrbvFhGKaEO4Q/giphy.gif",
+    "deployed": "https://mattgaarder.github.io/moovie-search/",
+    "repo": "https://github.com/MattGaarder/moovie-search"
+  },
+  {
+    "id": 2,
+    "title": "Team Page Builder",
+    "gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWY3NTcxZTc1ODg5ZDg4NGFkNTdhMzhiZTM3YjAxNTJkMjU2YTFkMSZjdD1n/DoHFVICa66Y0ZSNZqv/giphy.gif",
+    "deployed": "TBC",
+    "repo": "https://github.com/MattGaarder/mgaarder-portfolio"
   }
 ]
