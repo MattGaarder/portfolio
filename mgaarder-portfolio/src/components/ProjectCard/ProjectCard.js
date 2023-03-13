@@ -5,7 +5,8 @@ import "./ProjectCard.css"
 function ProjectCard(props) {
   console.log(props)
     return (
-      <div className={`project-card project-${props.id}`}>
+      // <div className={`project-card project-${props.id}`}>
+      <div className={props.id % 2 === 0 ? "leftRender" : "rightRender"}>
         <div className="img-container">
           <img className="project-gif" alt={props.title} src={props.gif} />
         </div>

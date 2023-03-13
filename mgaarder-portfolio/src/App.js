@@ -1,7 +1,8 @@
 import React from "react";
-import ProjectCard from "./components/ProjectCard/ProjectCard";
-import MainContent from "./components/MainJumbo/MainContent";
-import NavBar from "./components/NavBar/NavBar";
+// import ProjectCard from "./components/ProjectCard/ProjectCard";
+// import MainContent from "./components/MainJumbo/MainContent";
+// import NavBar from "./components/NavBar/NavBar";
+import {ProjectCard, MainContent, NavBar, CoolCounter} from './components'
 import projects from "./projects.json";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           repo={p.repo}
         />
       ))}
+      <CoolCounter />
     </div>
   );
 }
