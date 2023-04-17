@@ -7,17 +7,16 @@ body {
 }
 
 .jumbo {
-    text-align: right;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    background-image: url("../../assets/image-assets/opcaity-down-matt.png");
-    background-size: 60%;
+    /* text-align: right; */
+    /* display: flex; */
+    background-image: url("../../assets/image-assets/opcaity-down-matt-copy.png");
+    background-size: 60%; 
     background-repeat: no-repeat;
-    background-position-x: -22%;
+    background-position-x: 130%;
     background-position-y: 60%;
     height: 100vh;
-    z-index: -1;
+    z-index: -1; 
+    border: 1px solid black;
 
 }
 
@@ -40,13 +39,6 @@ body {
     position: relative;
 }
 
-.jumbo-header-2 {
-    font-size: 6.5rem;
-    z-index: 2;
-    position: absolute;
-    margin-top: 11.2%;
-    margin-left: 46.8%;
-}
 
 .jumbo-subheader {
     margin-top: 0.5% !important;
@@ -62,8 +54,6 @@ body {
 
 .clean-grey {
     padding: 2rem;
-    /* padding-right: 0%; */
-    width: 54vw;
     display: inline;
     position: absolute;
     border-radius: 0 29% 0 0;
