@@ -8,29 +8,48 @@ body {
 
 .jumbo {
     /* text-align: right; */
-    /* display: flex; */
-    background-image: url("../../assets/image-assets/opcaity-down-matt-copy.png");
-    background-size: 60%; 
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../assets/image-assets/rotated-matt.png");
+    background-size: 70%; 
     background-repeat: no-repeat;
-    background-position-x: 130%;
-    background-position-y: 60%;
+    background-position-x: 167%;
+    background-position-y: 70%;
     height: 100vh;
     z-index: -1; 
     border: 1px solid black;
+    /* justify-content: flex-end;
+    align-items: flex-end; */
 
 }
 
 .jumbo-content {
     background-color: #fff4e2;
-    background-image: url("../../assets/clean-gray-paper.png");
+    /* background-image: url("../../assets/clean-gray-paper.png"); */
     padding: 5%;
-    padding-right: 10%;
+    padding-right: 5%;
     display: inline-block;
     border-radius: 0 0 200px 0;
-    justify-content: flex-end;
     margin-top: 5rem;
-    height: 68vh;
+    height: 42vh;
+    width: 60%;
     z-index: 0;
+
+}
+
+.mini-menu {
+    position: relative;
+    z-index: 1;
+    border-radius: 5%;
+    /* display: inline; */
+    height: 35vh;
+
+    margin: 0%;
+    margin-top: -3%;
+    margin-left: 11%;
+    padding: 2.5%;
+    width: 86vh;
+    background-color: white;
 }
 
 .jumbo-header {
@@ -43,32 +62,33 @@ body {
 .jumbo-subheader {
     margin-top: 0.5% !important;
     text-align: left;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-left: 1.5rem;
 }
 
-.jumbo-subsubheader {
-    padding-top: 10%;
-    font-size: 1.7rem;
-}
 
 .clean-grey {
     padding: 2rem;
-    display: inline;
     position: absolute;
     border-radius: 0 29% 0 0;
-    z-index: 1;
+    height: 100vh;
+    width: 58vw;
+    padding-left: 20%;
+    z-index: -1;
 
 }
 
 .icons {
     display: flex;
     justify-content: flex-end;
+    padding-right: 4rem;
+    margin-top: -2%;
 }
 
 .icon {
     font-size: 4rem;
-    padding: 1.2rem;
-    padding-top: 1.5rem;
+    padding: 1rem;
+    padding-top: 0rem;
+    padding-right: 0.3rem;
     justify-content: space-evenly;
 }
