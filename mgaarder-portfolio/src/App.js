@@ -17,6 +17,7 @@ function App() {
           gif={p.gif}
           deployed={p.deployed}
           repo={p.repo}
+          summary={p.summary}
         />
       ))}
       <CoolCounter />

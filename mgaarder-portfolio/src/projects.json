@@ -1,5 +1,13 @@
 [
   {
+    "id": "6",
+    "title": "Moo-vie Comparator",
+    "gif": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDdkNjkyN2FiNmMxODUzMTVkN2ExOWRiOTZhMzYyODkxYmMwMDBlNiZjdD1n/32AslOrbvFhGKaEO4Q/giphy.gif",
+    "deployed": "https://mattgaarder.github.io/moovie-search/",
+    "repo": "https://github.com/MattGaarder/moovie-search",
+    "summary": "A web app for side-by-side comparison of movie trailers and relevant information for the films you are debating watching. Add to your watch-list or seen-list with persistent storage. Uses OMDb and YouTube APIs, and dynamic classes with jQuery to generate movie cards that can be swiped between."
+  },
+  {
     "id": "1",
     "title": "Coding Quiz",
     "gif": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTBmNDU2YTg0NTQ4MmYyOGYxMjk5Zjg1YmY5YmViM2M1NWJlMWVkMiZjdD1n/Du74AnR0Y2p09Lym86/giphy.gif",
@@ -36,17 +44,11 @@
     "repo": "https://github.com/MattGaarder/weather-dashboard"
   },
   {
-    "id": "6",
-    "title": "Moo-vie Comparator",
-    "gif": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDdkNjkyN2FiNmMxODUzMTVkN2ExOWRiOTZhMzYyODkxYmMwMDBlNiZjdD1n/32AslOrbvFhGKaEO4Q/giphy.gif",
-    "deployed": "https://mattgaarder.github.io/moovie-search/",
-    "repo": "https://github.com/MattGaarder/moovie-search"
-  },
-  {
     "id": "7",
     "title": "Team Page Builder",
     "gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWY3NTcxZTc1ODg5ZDg4NGFkNTdhMzhiZTM3YjAxNTJkMjU2YTFkMSZjdD1n/DoHFVICa66Y0ZSNZqv/giphy.gif",
     "deployed": "TBC",
-    "repo": "https://github.com/MattGaarder/mgaarder-portfolio"
+    "repo": "https://github.com/MattGaarder/mgaarder-portfolio",
+    "summary": "A command-line application that dynamically generates a professional README.md file from a user's input using node.js and the npm inquirer package. The purpose of the project was to allow the user to answer a series a prompts about a project using inquirer with node.js, and having this generate a README.md document in the project repository."
   }
 ]

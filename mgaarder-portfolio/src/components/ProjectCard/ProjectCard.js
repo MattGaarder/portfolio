@@ -1,68 +1,44 @@
 import React from "react";
-import "./ProjectCard.css"
+import "./ProjectCard.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
 // import ReactDOM from "react-dom";
 
 function ProjectCard(props) {
-  console.log(props)
-    return (
-      <div
-        className={`project-container ${
-          props.id % 2 === 0 ? "right-render" : "left-render"
-        }`}
-      >
-        <div className="img-container">
-          <img className="project-gif" alt={props.title} src={props.gif} />
-        </div>
-        <div className="content">
-          <div className="text-content">
-            <h1 className="title">
-              <strong>{props.title}</strong>
-            </h1>
-            <p>
-              A command-line application that dynamically generates a
-              professional README.md file from a user's input using node.js and
-              the npm inquirer package; a collection of common interactive
-              command line user interfaces.
-            </p>
-            <p>
-              A command-line application that dynamically generates a
-              professional README.md file from a user's input using node.js and
-              the npm inquirer package; a collection of common interactive
-              command line user interfaces.
-            </p>
-            {/* <ul>
-              <li>
-                Tech 1
-              </li>
-              <li>
-                Tech 2
-              </li>
-              <li>
-                Tech 3
-              </li>
-              <li>
-                Tech 4
-              </li>
-              <li>
-                Tech 5
-              </li>
-            </ul> */}
+  console.log(props);
+  return (
+    <div className={`project-container ${props.id % 2 === 0 ? "right-render" : "left-render"}`}>
+      <div className="img-container">
+        <img className="project-gif" alt={props.title} src={props.gif} />
+      </div>
+      <div className="content">
+        <div className="text-content">
+          <div className="title-link-container">
             <ul>
-              <li>
-                <strong className="title">{props.title}</strong>
-              </li>
-              <li>
-                <strong className="deployed-link">Deployed:</strong>{" "}
-                {props.deployed}
-              </li>
-              <li>
-                <strong className="repo-link">Repository:</strong> {props.repo}
-              </li>
+              <a href={props.repo} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon className="project-icon" icon={faGithub} />
+              </a>
+              <a href={props.deployed} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon className="project-icon" icon={faGithub} />
+              </a>
             </ul>
+            <h1 className="title">
+                <strong>{props.title}</strong>
+            </h1>
           </div>
+          <p className="description">{props.summary}</p>
+          <p>Technologies used:</p>
+        </div>
+        <div className="technologies">
+            <p>Mobile-first Design</p>
+            <p>Dynamic Classes</p>
+            <p>jQuery</p>
+            <p>React</p>
         </div>
       </div>
-    );
+    </div>
+  );
 }
 
-export default ProjectCard
+export default ProjectCard;
