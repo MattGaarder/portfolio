@@ -17,14 +17,14 @@ body {
     background-position-y: 70%;
     height: 100vh;
     z-index: -1; 
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* justify-content: flex-end;
     align-items: flex-end; */
 
 }
 
 .jumbo-content {
-    background-color: #fff4e2;
+    background-color: rgb(255, 244, 226, 0.8) ;
     /* background-image: url("../../assets/clean-gray-paper.png"); */
     padding: 5%;
     padding-right: 5%;
@@ -43,13 +43,15 @@ body {
     border-radius: 5%;
     /* display: inline; */
     height: 35vh;
+    box-shadow: -10px 10px rgb(0, 0, 0, 0.2);
 
     margin: 0%;
     margin-top: -3%;
     margin-left: 11%;
     padding: 2.5%;
     width: 86vh;
-    background-color: white;
+    background: linear-gradient(-170deg, #faf7ef 75%, rgb(230, 229, 225, 0.8) 50%);
+    border-top: 0.5px solid black;
 }
 
 .jumbo-header {
@@ -71,9 +73,9 @@ body {
     padding: 2rem;
     position: absolute;
     border-radius: 0 29% 0 0;
-    height: 100vh;
+    height: 105vh;
     width: 58vw;
-    padding-left: 20%;
+    padding-left: 15%;
     z-index: -1;
 
 }

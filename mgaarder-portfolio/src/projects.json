@@ -13,35 +13,39 @@
     "gif": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTBmNDU2YTg0NTQ4MmYyOGYxMjk5Zjg1YmY5YmViM2M1NWJlMWVkMiZjdD1n/Du74AnR0Y2p09Lym86/giphy.gif",
     "deployed": "https://mattgaarder.github.io/moovie-search/",
     "repo": "https://github.com/MattGaarder/moovie-search",
-    "test": "samm"
+    "summary": "A web app for side-by-side comparison of movie trailers and relevant information for the films you are debating watching. Add to your watch-list or seen-list with persistent storage. Uses OMDb and YouTube APIs, and dynamic classes with jQuery to generate movie cards that can be swiped between."
   },
   {
     "id": "2",
     "title": "README.md Generator",
     "gif": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGM3MDVmYTRiZDkyMDM4YmQ5OWQzNWUzMWY1NzA5MmRjYjA2Yjg5ZSZjdD1n/HbVX9TkQKmc0mOLV4C/giphy.gif",
     "deployed": "https://mattgaarder.github.io/weather-dashboard/",
-    "repo": "https://github.com/MattGaarder/weather-dashboard"
+    "repo": "https://github.com/MattGaarder/weather-dashboard",
+    "summary": "A web app for side-by-side comparison of movie trailers and relevant information for the films you are debating watching. Add to your watch-list or seen-list with persistent storage. Uses OMDb and YouTube APIs, and dynamic classes with jQuery to generate movie cards that can be swiped between."
   },
   {
     "id": "3",
     "title": "Weather Dashboard",
     "gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTBmNmVjODI4NmM1NDgzYThjYjgyZDgxMmNlYTAzNThkYzBhZDAxZiZjdD1n/wZSaxEBZAxF1K5yrxy/giphy.gif",
     "deployed": "https://mattgaarder.github.io/daily-planner/",
-    "repo": "https://github.com/MattGaarder/daily-planner"
+    "repo": "https://github.com/MattGaarder/daily-planner",
+    "summary": "A web app for side-by-side comparison of movie trailers and relevant information for the films you are debating watching. Add to your watch-list or seen-list with persistent storage. Uses OMDb and YouTube APIs, and dynamic classes with jQuery to generate movie cards that can be swiped between."
   },
   {
     "id": "4",
     "title": "Random Password Generator",
     "gif": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTdjOGI2MjRmMmI4Y2NmNGIyMzU2NTIwZjI4YjA0M2MyNTYwYjhlZiZjdD1n/mTkFZnQ8EvNSXfV9xP/giphy.gif",
     "deployed": "https://github.com/MattGaarder/code-quiz",
-    "repo": "https://github.com/MattGaarder/code-quiz"
+    "repo": "https://github.com/MattGaarder/code-quiz",
+    "summary": "A web app for side-by-side comparison of movie trailers and relevant information for the films you are debating watching. Add to your watch-list or seen-list with persistent storage. Uses OMDb and YouTube APIs, and dynamic classes with jQuery to generate movie cards that can be swiped between."
   },
   {
     "id": "5",
     "title": "Work Day Scheduler",
     "gif": "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzFkZjk4NzUwYzBmMDI1YzgzYzQ5YzQxMTE2ZTg4NjVmYjI2ZTg1ZCZjdD1n/pgvPIQVTNPtA2nL1S1/giphy.gif",
     "deployed": "https://mattgaarder.github.io/weather-dashboard/",
-    "repo": "https://github.com/MattGaarder/weather-dashboard"
+    "repo": "https://github.com/MattGaarder/weather-dashboard",
+    "summary": "A web app for side-by-side comparison of movie trailers and relevant information for the films you are debating watching. Add to your watch-list or seen-list with persistent storage. Uses OMDb and YouTube APIs, and dynamic classes with jQuery to generate movie cards that can be swiped between."
   },
   {
     "id": "7",

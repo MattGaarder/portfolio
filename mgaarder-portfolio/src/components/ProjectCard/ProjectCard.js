@@ -8,14 +8,20 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 function ProjectCard(props) {
   console.log(props);
   return (
+    <>
+    <nav className="nav-3">
+          </nav>
     <div className={`project-container ${props.id % 2 === 0 ? "right-render" : "left-render"}`}>
       <div className="img-container">
         <img className="project-gif" alt={props.title} src={props.gif} />
       </div>
       <div className="content">
         <div className="text-content">
-          <div className="title-link-container">
-            <ul>
+            <h1 className="title">
+                <strong>{props.title}</strong>
+            </h1>
+          <p className="description">{props.summary}</p>
+          <ul>
               <a href={props.repo} target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon className="project-icon" icon={faGithub} />
               </a>
@@ -23,21 +29,18 @@ function ProjectCard(props) {
                   <FontAwesomeIcon className="project-icon" icon={faGithub} />
               </a>
             </ul>
-            <h1 className="title">
-                <strong>{props.title}</strong>
-            </h1>
-          </div>
-          <p className="description">{props.summary}</p>
-          <p>Technologies used:</p>
         </div>
         <div className="technologies">
+            <p>CSS</p>
             <p>Mobile-first Design</p>
             <p>Dynamic Classes</p>
             <p>jQuery</p>
             <p>React</p>
+
         </div>
       </div>
     </div>
+    </>
   );
 }
 
