@@ -3,6 +3,7 @@
 
 .project-container {
     background-color: rgb(232,230,225);
+    background: linear-gradient(130deg, rgb(232,230,225) 44%, rgb(252,249,242) 44%);
     display: flex;
     /* position: relative; */
     /* align-items: center; */
@@ -47,6 +48,12 @@
 
 }
 
+.img-container {
+  box-shadow: 15px 15px rgba(123, 123, 123, 0.4) ;
+  border-radius: 2%;
+
+}
+
   .right-render .img-container {
     order: 2;
  
@@ -54,6 +61,7 @@
   
   .left-render .img-container {
     order: 1;
+    
   }
 
 
@@ -67,6 +75,7 @@
     width: 62vw;
     height: 33vh;
     box-shadow: 15px 15px rgba(123, 123, 123, 0.4) ;
+    text-align: right;
   }
 
   .left-render .text-content {
@@ -80,6 +89,7 @@
     width: 62vw;
     height: 33vh;
     box-shadow: 15px 15px rgba(123, 123, 123, 0.4) ;
+    text-align: left;
   }
   
 .right-render   .content {

@@ -37,6 +37,10 @@ body {
 
 }
 
+.jumbo-content h1 {
+    margin-left: 2.7rem;
+}
+
 .mini-menu {
     position: relative;
     z-index: 1;
@@ -52,6 +56,11 @@ body {
     width: 86vh;
     background: linear-gradient(-170deg, #faf7ef 75%, rgb(230, 229, 225, 0.8) 50%);
     border-top: 0.5px solid black;
+}
+
+.mini-menu p {
+    padding: 0.3rem;
+    font-size: larger;
 }
 
 .jumbo-header {
@@ -84,7 +93,7 @@ body {
     display: flex;
     justify-content: flex-end;
     padding-right: 4rem;
-    margin-top: -2%;
+    margin-top: 26rem;
 }
 
 .icon {
@@ -93,4 +102,16 @@ body {
     padding-top: 0rem;
     padding-right: 0.3rem;
     justify-content: space-evenly;
+}
+
+.button {
+    margin-top: 2rem;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+button {
+    
 }
