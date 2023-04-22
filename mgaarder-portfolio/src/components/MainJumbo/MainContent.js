@@ -36,7 +36,9 @@ function MainContent() {
             <li>
               But also enjoy <strong>drawing</strong> with good old fashioned pen and paper also.
             </li>
-          </ul>
+          </ul><br></br>
+          <p>Please review my projects below for knowledge displayed in HTML,
+            CSS Some fun facts about me:</p>
           {/* <div className="icons">
             <FontAwesomeIcon className="icon" icon={faGithub} />
             <FontAwesomeIcon className="icon" icon={faLinkedin} />

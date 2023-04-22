@@ -65,6 +65,7 @@
   }
 
 
+
  .right-render .text-content {
     position: absolute;
     margin-top: 3rem;
@@ -76,6 +77,8 @@
     height: 33vh;
     box-shadow: 15px 15px rgba(123, 123, 123, 0.4) ;
     text-align: right;
+    border-bottom: 1px solid black;
+  border-right: 1px solid black;
   }
 
   .left-render .text-content {
@@ -90,6 +93,8 @@
     height: 33vh;
     box-shadow: 15px 15px rgba(123, 123, 123, 0.4) ;
     text-align: left;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
   }
   
 .right-render   .content {
@@ -147,9 +152,4 @@
     display: block;
     color: #ffffff;
     /* text-align: center; */
-}
-
-.left-render .content {
-  /* padding-left: 3rem;
-  margin-left: 3rem; */
 }

@@ -30,14 +30,11 @@ function ProjectCard(props) {
               </a>
             </ul>
         </div>
-        <div className="technologies">
-            <p>CSS</p>
-            <p>Mobile-first Design</p>
-            <p>Dynamic Classes</p>
-            <p>jQuery</p>
-            <p>React</p>
-
-        </div>
+<div className="technologies">
+            {props.technology.map((tech, index) => (
+              <p key={index}>{tech}</p>
+            ))}
+          </div>
       </div>
     </div>
     </>

@@ -18,6 +18,7 @@ function App() {
           deployed={p.deployed}
           repo={p.repo}
           summary={p.summary}
+          technology={p.technology}
         />
       ))}
       <CoolCounter />
