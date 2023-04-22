@@ -19,10 +19,10 @@ function NavBar() {
           </nav>
           <nav className="nav-2">
             <div className="icons nav-items-2">
-              <FontAwesomeIcon className="icon" icon={faGithub} />
-              <FontAwesomeIcon className="icon" icon={faLinkedin} />
-              <FontAwesomeIcon className="icon" icon={faTwitter} />
-              <FontAwesomeIcon className="icon" icon={faFilePdf} />
+            <a href="https://github.com/MattGaarder" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="icon" icon={faGithub} /></a>
+            <a href="https://www.linkedin.com/in/matteus-gaarder-991494178/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
+            <a href="https://twitter.com/JelloAudible" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="icon" icon={faTwitter} /></a>
+            <FontAwesomeIcon className="icon" icon={faFilePdf} />
             </div>
           </nav>
         </header>
