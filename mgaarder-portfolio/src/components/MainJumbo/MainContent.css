@@ -6,9 +6,9 @@
     position: relative;
     flex-direction: column;
     background-image: url("../../assets/image-assets/rotated-matt.png");
-    background-size: 70%; 
+    background-size: 60%; 
     background-repeat: no-repeat;
-    background-position-x: 167%;
+    background-position-x: 137%;
     background-position-y: 70%;
     height: 100vh;
     z-index: -1; 
@@ -26,9 +26,9 @@
     width: 100%;
     height: 100%;
     background-image: url('../../assets/image-assets/glasses-rotated-matt-Recovered.png');
-    background-size: 70%;
+    background-size: 60%;
     background-repeat: no-repeat;
-    background-position-x: 167%;
+    background-position-x: 137%;
     background-position-y: 70%;
     z-index: 2;
 }
@@ -82,6 +82,7 @@
     width: 81vh;
     background: linear-gradient(-170deg, #faf7ef 75%, rgb(230, 229, 225, 0.8) 50%);
     border-top: 0.5px solid black;
+    border-right: 0.5px solid black;
 }
 
 .mini-menu p {

@@ -1,7 +1,8 @@
 import React from "react";
 import "./ProjectCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 // import ReactDOM from "react-dom";
 
@@ -29,11 +30,11 @@ function ProjectCard(props) {
             ))}
             <p>||</p>
             <ul>
-              <a href={props.repo} target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon className="project-icon" icon={faGithub} />
+              <a href={props.repo} target="_blank" rel="noopener noreferrer" className="">
+                <FontAwesomeIcon icon={faGithubSquare} />
               </a>
               <a href={props.deployed} target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon className="project-icon" icon={faGithub} />
+                <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </a>
             </ul>
           </div>
