@@ -61,11 +61,11 @@ display: flex;
 
 }
 
-.icons {
-  color: rgb(55, 51, 44);
+.icon {
+  color: rgb(16, 14, 12);
 }
 
-a:visited {
+.icon a:visited {
   color:  rgb(35, 32, 27);;
 }
 

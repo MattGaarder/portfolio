@@ -164,3 +164,17 @@
   display: block;
   color: #ffffff;
 }
+
+.technology-icon {
+  color: white;
+  margin-top: 0.2rem;
+  padding: 0.2rem;
+}
+
+.technology-icon-github {
+  font-size: 1.5rem;
+}
+
+.technology-icon-link {
+  font-size: 1.3rem;
+}

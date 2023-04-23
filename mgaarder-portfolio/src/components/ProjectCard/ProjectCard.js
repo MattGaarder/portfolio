@@ -30,10 +30,10 @@ function ProjectCard(props) {
             ))}
             <p>||</p>
             <ul>
-              <a href={props.repo} target="_blank" rel="noopener noreferrer" className="">
+              <a href={props.repo} target="_blank" rel="noopener noreferrer" className="technology-icon technology-icon-github">
                 <FontAwesomeIcon icon={faGithubSquare} />
               </a>
-              <a href={props.deployed} target="_blank" rel="noopener noreferrer">
+              <a href={props.deployed} target="_blank" rel="noopener noreferrer" className="technology-icon technology-icon-link">
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </a>
             </ul>
