@@ -50,7 +50,7 @@
   background: linear-gradient(110deg, #c9b28d, 60%,  #a78041 60%);
   opacity: 0.7;
   transition: margin-top 0.5s ease-out;
-  z-index: -1;
+  z-index: 15;
 }
 
 
@@ -58,6 +58,7 @@
 margin-top: 25rem;
 flex-direction: column;
 display: flex;
+z-index: 8;
 
 }
 
@@ -65,7 +66,7 @@ display: flex;
   color: rgb(16, 14, 12);
 }
 
-.icon a:visited {
+.icons a:visited {
   color:  rgb(35, 32, 27);;
 }
 

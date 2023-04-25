@@ -57,7 +57,7 @@
   padding: 1rem;
   background-color: rgb(252, 249, 242, 0.97);
   border-radius: 2%;
-  width: 62vw;
+  width: 52vw;
   height: 33vh;
   box-shadow: 15px 15px rgba(123, 123, 123, 0.4);
   text-align: right;
@@ -67,17 +67,19 @@
 
 .left-render .text-content {
   position: absolute;
-  margin-top: 2rem;
+  margin-top: 3rem;
   padding: 1rem;
-  background-color: rgb(252, 249, 242, 0.97);
+  background-color: rgba(239, 235, 224, 0.97);
   border-radius: 2%;
-  width: 62vw;
+  width: 52vw;
   height: 33vh;
   box-shadow: 15px 15px rgba(123, 123, 123, 0.4);
   text-align: left;
   border-bottom: 1px solid black;
   border-left: 1px solid black;
 }
+
+
 
 .right-render .content {
   display: flex;

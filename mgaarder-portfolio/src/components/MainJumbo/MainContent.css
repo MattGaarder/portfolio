@@ -10,8 +10,10 @@
     background-repeat: no-repeat;
     background-position-x: 137%;
     background-position-y: 70%;
+    margin-left: 3.5rem;
+    width: 95vw;
     height: 100vh;
-    z-index: -1; 
+    z-index: 15; 
     /* border: 1px solid black; */
     /* justify-content: flex-end;
     align-items: flex-end; */
@@ -30,7 +32,7 @@
     background-repeat: no-repeat;
     background-position-x: 137%;
     background-position-y: 70%;
-    z-index: 2;
+    z-index: 52;
 }
 
 
@@ -43,9 +45,9 @@
     border-radius: 0 0 200px 0;
     margin-top: 5rem;
     height: 42vh;
-    width: 60%;
-    z-index: 1;
-    position: relative;
+    width: 65%;
+    z-index: 22;
+    position: absolute;
 }
 
 .jumbo-content::before {
@@ -58,7 +60,7 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.1);
     border-radius: 0 0 200px 0;
-    z-index: -10;
+    z-index: 3;
 }
 
 
@@ -69,18 +71,18 @@
 
 .mini-menu {
     position: relative;
-    z-index: 1;
+    z-index: 24;
     border-radius: 5%;
     /* display: inline; */
     height: 45vh;
     box-shadow: -10px 10px rgb(0, 0, 0, 0.2);
 
     margin: 0%;
-    margin-top: -5%;
+    margin-top: 28%;
     margin-left: 12%;
     padding: 2.5%;
     width: 81vh;
-    background: linear-gradient(-170deg, #faf7ef 75%, rgb(230, 229, 225, 0.8) 50%);
+    background: linear-gradient(-170deg, #f9f5e8 75%, rgba(228, 226, 218, 0.8) 50%);
     border-top: 0.5px solid black;
     border-right: 0.5px solid black;
 }
@@ -92,7 +94,7 @@
 
 .jumbo-header {
     font-size: 6.5rem;
-    z-index: 2;
+    z-index: 7;
     position: relative;
 }
 
