@@ -20,7 +20,7 @@
   {
     "id": "3",
     "title": "Vibely",
-    "gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWY3NTcxZTc1ODg5ZDg4NGFkNTdhMzhiZTM3YjAxNTJkMjU2YTFkMSZjdD1n/DoHFVICa66Y0ZSNZqv/giphy.gif",
+    "gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjg4YTUxNDUzMTFjOTZlMTZlZjU3MjlkMjc0YmEzMjZhZmMzODkxYSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/W59zLvbEsDbE9Q7iMQ/giphy.gif",
     "deployed": "https://main--endearing-sundae-33b843.netlify.app/",
     "repo": "https://github.com/MattGaarder/vibely",
     "summary": "Vibely is my bootcamp final team project. We wanted to challenge ourselves to reverse-engineer a twitter-like social media app with user-authentication and real-time database updates using firebase for our back-end functionality. Material UI was used for our react components.",
@@ -32,8 +32,8 @@
     "gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTBmNmVjODI4NmM1NDgzYThjYjgyZDgxMmNlYTAzNThkYzBhZDAxZiZjdD1n/wZSaxEBZAxF1K5yrxy/giphy.gif",
     "deployed": "https://mattgaarder.github.io/daily-planner/",
     "repo": "https://github.com/MattGaarder/daily-planner",
-    "summary": "A web app for side-by-side comparison of movie trailers and relevant information for the films you are debating watching. Add to your watch-list or seen-list with persistent storage. Uses OMDb and YouTube APIs, and dynamic classes with jQuery to generate movie cards that can be swiped between.",
-    "technology": ["Moment.js", "OpenWeatherMap API", "JavaScript", "Bootstrap"]
+    "summary": "Weather app that includes a search option, a list of cities, and a five-day forecast and current weather conditions for chosen cities. The weather app takes user input in the form of a text-area and submit button. This sends an intital call to the openweather API that retrieves the coordinates for the city and uses this to display weather information.",
+    "technology": ["Moment.js", "OpenWeatherMap API", "Bootstrap"]
   },
   {
     "id": "5",
@@ -41,7 +41,7 @@
     "gif": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGM3MDVmYTRiZDkyMDM4YmQ5OWQzNWUzMWY1NzA5MmRjYjA2Yjg5ZSZjdD1n/HbVX9TkQKmc0mOLV4C/giphy.gif",
     "deployed": "https://mattgaarder.github.io/weather-dashboard/",
     "repo": "https://github.com/MattGaarder/weather-dashboard",
-    "summary": "A web app for side-by-side comparison of movie trailers and relevant information for the films you are debating watching. Add to your watch-list or seen-list with persistent storage. Uses OMDb and YouTube APIs, and dynamic classes with jQuery to generate movie cards that can be swiped between.",
+    "summary": "A command-line application that dynamically generates a professional README.md file from a user's input using node.js and the npm inquirer package. The purpose of the project was to allow the user to answer a series a prompts about a project using inquirer with node.js, and having this generate a README.md document in the project repository.",
     "technology": ["inquirer", "Node.js", "ajax", "Persistent storage"]
   },
   {
@@ -50,7 +50,7 @@
     "gif": "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzFkZjk4NzUwYzBmMDI1YzgzYzQ5YzQxMTE2ZTg4NjVmYjI2ZTg1ZCZjdD1n/pgvPIQVTNPtA2nL1S1/giphy.gif",
     "deployed": "https://mattgaarder.github.io/weather-dashboard/",
     "repo": "https://github.com/MattGaarder/weather-dashboard",
-    "summary": "A web app for side-by-side comparison of movie trailers and relevant information for the films you are debating watching. Add to your watch-list or seen-list with persistent storage. Uses OMDb and YouTube APIs, and dynamic classes with jQuery to generate movie cards that can be swiped between.",
+    "summary": "a simple calendar application that allows a user to save events for each hour of the day. I used moment.js to be able have the current time and date and display on my page dynamically as formatted to my specifications using their documentation. I was also able to put into further practice the idea of using objects to parse information to local storage using event listeners.",
     "technology": ["Moment.js", "Persistent storage", "jQuery", "Bootstrap"]
   },
   {
@@ -59,7 +59,7 @@
     "gif": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTdjOGI2MjRmMmI4Y2NmNGIyMzU2NTIwZjI4YjA0M2MyNTYwYjhlZiZjdD1n/mTkFZnQ8EvNSXfV9xP/giphy.gif",
     "deployed": "https://github.com/MattGaarder/code-quiz",
     "repo": "https://github.com/MattGaarder/code-quiz",
-    "summary": "A web app for side-by-side comparison of movie trailers and relevant information for the films you are debating watching. Add to your watch-list or seen-list with persistent storage. Uses OMDb and YouTube APIs, and dynamic classes with jQuery to generate movie cards that can be swiped between.",
+    "summary": "An application that can be used to generate a random password based on criteria you've selected. The code prompts users for what type of character they want in their password, and the desired number of characters. This is then displayed on the webpage using methods provided in our starter code.",
     "technology": ["Bootstrap", "JavaScript", "HTML", "CSS"]
   }
 ]
