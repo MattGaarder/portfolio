@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7c19f675.css",
+    "main.js": "/static/js/main.e5761c2d.js",
+    "static/media/rotated-matt.png": "/static/media/rotated-matt.992c36f9b4aa0dea2234.png",
+    "static/media/glasses-rotated-matt-Recovered.png": "/static/media/glasses-rotated-matt-Recovered.7b38e576a3b797133fa8.png",
+    "static/media/clean-gray-paper.png": "/static/media/clean-gray-paper.6dbbb561e12e02609505.png",
+    "index.html": "/index.html",
+    "main.7c19f675.css.map": "/static/css/main.7c19f675.css.map",
+    "main.e5761c2d.js.map": "/static/js/main.e5761c2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c19f675.css",
+    "static/js/main.e5761c2d.js"
+  ]
+}
