@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 // import ReactDOM from "react-dom";

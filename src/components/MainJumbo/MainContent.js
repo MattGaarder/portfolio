@@ -1,11 +1,11 @@
 import React from "react";
 import "./MainContent.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+// import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+// import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import cleanGrey from "../../assets/clean-gray-paper.png";
-import sexyBeige from "../../assets/clean-gray-paper.png";
+// import sexyBeige from "../../assets/clean-gray-paper.png";
 
 // import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 // import AknNoBkg from '../assets/mattBnW.png'
@@ -18,7 +18,7 @@ function MainContent() {
           <h1 className="jumbo-header">Hi, I'm Matt,</h1>
           <h1 className="jumbo-subheader">Web-developer. Idea-haver. Nerd.</h1>
         </div>
-        <img className="clean-grey" src={cleanGrey}></img>
+        <img className="clean-grey" src={cleanGrey} alt="background-texture"></img>
         {/* <img className="sexy-beige" src={sexyBeige}></img> */}
         <div className="mini-menu">
           <p>
