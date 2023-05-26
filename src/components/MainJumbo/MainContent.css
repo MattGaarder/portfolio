@@ -31,14 +31,14 @@
 
 
 .jumbo-subheader {
-    background-color: #14303f;
+    background-color: var(--my-turquoise);
     color: #ffffff;
     width: auto;
     margin-top: -3%;
 }
 
 .jumbo-subheader-2 {
-    background-color: #14303f;
+    background-color: var(--my-turquoise);
     color: #ffffff;
     width: auto;
 }

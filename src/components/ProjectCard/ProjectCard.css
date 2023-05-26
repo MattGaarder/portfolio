@@ -213,12 +213,20 @@
 
 .technologies {
   display: flex;
+  justify-content: center;
+  padding-top: 0.3rem;
+}
+
+.technologies > p {
+  padding: 0.6rem;
+  color: #739cb2;
+  opacity: 0.9;
 }
 
 .img-container {
   height: 45vh;
   position: relative;
-  background-color: rgb(255, 255, 255, 06);
+  background-color: rgb(247, 251, 254);
 }
 
 .img-container img {
@@ -228,7 +236,7 @@
 }
 
 .content {
-  border-top: 1px solid rgb(176, 175, 175);
+  border-top: 1px solid rgb(146, 151, 152);
   height: 21vh;
   text-align: center;
   padding: 0.7rem;
@@ -251,20 +259,46 @@
 
 button {
   position: absolute;
-  top: 10px; 
-  width: 50px; 
-  height: 50px; 
+  /* top: 10px;  */
+  width: 20%; 
+  height: 100%; 
   border: none;
-  background-color: rgba(0, 0, 0, 0.5); 
+  /* background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, transparent 100%); */
   color: white;
   z-index: 1;
-  margin-top: 9rem;
+  opacity: 0;
+  /* margin-top: 9rem; */
 }
 
+
+
 button.prev {
-  left: 10px;
+  /* left: 10px; */
+  /* background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, transparent 100%); */
+}
+
+button.prev:hover {
+  /* left: 10px; */
+  opacity: 1;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
 }
 
 button.next {
-  right: 10px; 
+  right: 0px; 
+  
+  /* background: linear-gradient(to left, rgba(0, 0, 0, 0.5) 0%, transparent 100%); */
+}
+
+button.next:hover {
+  right: 0px; 
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+  opacity: 1;
+}
+
+.text-content {
+  color: var(--my-turquoise);
+}
+
+.container:hover button {
+  visibility: visible;
 }

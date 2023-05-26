@@ -27,9 +27,9 @@ function ProjectCard(props) {
     <>
       <div className={`project-container ${props.id}`}>
         <div className="img-container">
-          <button onClick={prevImage} className="prev">Prev</button>
+          <button onClick={prevImage} className="prev"></button>
           <img className="project-gif" alt={props.title} src={props.images[currentImageIndex]} />
-          <button onClick={nextImage} className="next">Next</button>
+          <button onClick={nextImage} className="next"></button>
         </div>
         <div className="content">
           <div className="text-content">

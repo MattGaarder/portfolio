@@ -52,7 +52,7 @@
   transition: color 0.3s ease; /* transition for hover effect */
 }
 
-.icon:hover {
+.nav-icon:hover {
   color: #094b92; /* change the color when hover */
 }
 
