@@ -25,20 +25,20 @@
     font-size: 1.8rem;
     padding-top: 1.8rem;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--my-blue)
 }
 
 
 
 .jumbo-subheader {
-    background-color: rgb(63, 62, 75);
+    background-color: #14303f;
     color: #ffffff;
     width: auto;
     margin-top: -3%;
 }
 
 .jumbo-subheader-2 {
-    background-color: rgb(63, 62, 75);
+    background-color: #14303f;
     color: #ffffff;
     width: auto;
 }

@@ -183,20 +183,31 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr 1fr;
   grid-gap: 0px;
+  /* grid-template-areas: 
+    "project1 project2"
+    "project3 project4 project5"
+    "project6 project7"; */
   
 }
 
 
 .project-container {
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
-
+  border-right: 1px solid var(--my-blue);
+  border-bottom: 1px solid var(--my-blue);
 }
 
-.grid-container :nth-child(2n) { /* 2n targets every second item, adjust as needed */
+.grid-container :nth-child(2) { 
+  border-right: none;
+}
+
+.grid-container :nth-child(5) { 
+  border-right: none;
+}
+
+.grid-container :nth-child(7) { 
   border-right: none;
 }
 
@@ -205,10 +216,55 @@
 }
 
 .img-container {
-  min-height: 30vh;
+  height: 45vh;
+  position: relative;
+  background-color: rgb(255, 255, 255, 06);
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;  /* This will cause the image to scale proportionally to fill its container, some parts of the image may be cut off */
 }
 
 .content {
-  border-top: 1px solid black;
-  height: 20vh;
+  border-top: 1px solid rgb(176, 175, 175);
+  height: 21vh;
+  text-align: center;
+  padding: 0.7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+}
+
+.title {
+  padding: 0.2rem
+}
+
+.project1, .project2, .project7, .project6 {
+  grid-column: span 3;
+}
+
+.project3, .project4, .project5 {
+  grid-column: span 2;
+}
+
+button {
+  position: absolute;
+  top: 10px; 
+  width: 50px; 
+  height: 50px; 
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white;
+  z-index: 1;
+  margin-top: 9rem;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px; 
 }

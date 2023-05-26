@@ -15,7 +15,7 @@ function App() {
           <ProjectCard
             id={p.id}
             title={p.title}
-            gif={p.gif}
+            images={p.images}
             deployed={p.deployed}
             repo={p.repo}
             summary={p.summary}
