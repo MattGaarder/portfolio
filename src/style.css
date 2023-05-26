@@ -1,12 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+:root {
+    --my-blue: rgb(92, 87, 152);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
+    position: relative;
+}
+
+*::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("./assets/clean-gray-paper.png");
+    opacity: 0.4;
+    z-index: -1; /* Sit behind the content */
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color:  #fdf9f2;
+    background-color: #f1f1f7;
     margin: 0;
 }

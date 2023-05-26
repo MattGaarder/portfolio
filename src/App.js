@@ -7,23 +7,25 @@ import projects from "./projects.json";
 
 function App() {
   return (
-    <div className="container">
+    <>
       <NavBar />
       <MainContent />
-      {projects.map((p) => (
-        <ProjectCard
-          id={p.id}
-          title={p.title}
-          gif={p.gif}
-          deployed={p.deployed}
-          repo={p.repo}
-          summary={p.summary}
-          technology={p.technology}
-        />
-      ))}
+      <div className="grid-container">
+        {projects.map((p) => (
+          <ProjectCard
+            id={p.id}
+            title={p.title}
+            gif={p.gif}
+            deployed={p.deployed}
+            repo={p.repo}
+            summary={p.summary}
+            technology={p.technology}
+          />
+        ))}
+      </div>
       <CoolCounter />
       <ProgressBar />
-    </div>
+    </>
   );
 }
 

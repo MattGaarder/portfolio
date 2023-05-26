@@ -10,10 +10,7 @@ function ProjectCard(props) {
   console.log(props);
   return (
     <>
-      <nav className="nav-3"></nav>
-      <div className={`project-container ${
-          props.id % 2 === 0 ? "right-render" : "left-render"
-        }`}>
+      <div className="project-container">
         <div className="img-container">
           <img className="project-gif" alt={props.title} src={props.gif} />
         </div>
@@ -28,15 +25,15 @@ function ProjectCard(props) {
             {props.technology.map((tech, index) => (
               <p key={index}>{tech}</p>
             ))}
-            <p>||</p>
-            <ul>
+            {/* <p>||</p> */}
+            {/* <ul>
               <a href={props.repo} target="_blank" rel="noopener noreferrer" className="technology-icon technology-icon-github">
                 <FontAwesomeIcon icon={faGithubSquare} />
               </a>
               <a href={props.deployed} target="_blank" rel="noopener noreferrer" className="technology-icon technology-icon-link">
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </a>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>

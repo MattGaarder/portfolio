@@ -9,22 +9,28 @@ function NavBar() {
     return (
       <>
         <header>
-          <nav className="nav">
-            <h1 className="logo">G.</h1>
+          <nav className="nav-nav">
+            <p className="name">Matt Gaarder</p>
             <ul className="nav-items">
-              <li>About</li>
-              <li>Projects</li>
-              <li>Contact</li>
+              <p>About</p>
+              <p>Thoughts</p>
+              <p>Projects</p>
             </ul>
+            <div className="link-icons">
+              <a href="https://github.com/MattGaarder" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="nav-icon" icon={faGithub} /></a>
+              <a href="https://www.linkedin.com/in/matteus-gaarder-991494178/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="nav-icon" icon={faLinkedin} /></a>
+              <a href="https://twitter.com/JelloAudible" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="nav-icon" icon={faTwitter} /></a>
+              <FontAwesomeIcon className="nav-icon pdf" icon={faFilePdf} />
+            </div>
           </nav>
-          <nav className="nav-2">
+          {/* <nav className="nav-2">
             <div className="icons nav-items-2">
             <a href="https://github.com/MattGaarder" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="icon" icon={faGithub} /></a>
             <a href="https://www.linkedin.com/in/matteus-gaarder-991494178/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
             <a href="https://twitter.com/JelloAudible" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="icon" icon={faTwitter} /></a>
             <FontAwesomeIcon className="icon" icon={faFilePdf} />
             </div>
-          </nav>
+          </nav> */}
         </header>
       </>
     );

@@ -1,4 +1,4 @@
-.project-container {
+/* .project-container {
   background-color: rgb(232, 230, 225);
   background: linear-gradient(130deg, rgb(232, 230, 225) 44%, rgb(252, 249, 242) 44%);
   display: flex;
@@ -179,4 +179,36 @@
 
 .technology-icon-link {
   font-size: 1.3rem;
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 0px;
+  
+}
+
+
+.project-container {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+
+}
+
+.grid-container :nth-child(2n) { /* 2n targets every second item, adjust as needed */
+  border-right: none;
+}
+
+.technologies {
+  display: flex;
+}
+
+.img-container {
+  min-height: 30vh;
+}
+
+.content {
+  border-top: 1px solid black;
+  height: 20vh;
 }

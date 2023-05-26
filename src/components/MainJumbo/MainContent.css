@@ -1,143 +1,45 @@
 
 
 .jumbo {
-    /* text-align: right; */
     display: flex;
-    position: relative;
+    height: 53vh;
+    width: 100vw;
+    border-bottom: 1px solid black;
+    padding-top: 2%;
+    align-items: center; /* This centers vertically */
+    justify-content: center;
+}
+
+.selfport {
+    max-width: 100%;
+    max-height: 100%;
+    padding-right: 15rem;
+}
+
+.hero {
+    height: 37.2vh;
+    display: flex;
     flex-direction: column;
-    background-image: url("../../assets/image-assets/rotated-matt.png");
-    background-size: 60%; 
-    background-repeat: no-repeat;
-    background-position-x: 137%;
-    background-position-y: 70%;
-    margin-left: 3.5rem;
-    width: 95vw;
-    height: 100vh;
-    z-index: 15; 
-    /* border: 1px solid black; */
-    /* justify-content: flex-end;
-    align-items: flex-end; */
-
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    padding-top: 1.8rem;
+    text-align: center;
+    border-bottom: 1px solid black;
 }
 
-.jumbo::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../../assets/image-assets/glasses-rotated-matt-Recovered.png');
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position-x: 137%;
-    background-position-y: 70%;
-    z-index: 52;
-}
-
-
-.jumbo-content {
-    background-color: rgb(255, 244, 226, 1) ;
-    /* background-image: url("../../assets/clean-gray-paper.png"); */
-    padding: 5%;
-    padding-right: 5%;
-    display: inline-block;
-    border-radius: 0 0 200px 0;
-    margin-top: 5rem;
-    height: 42vh;
-    width: 65%;
-    z-index: 22;
-    position: absolute;
-}
-
-.jumbo-content::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-top: 1rem;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 0 0 200px 0;
-    z-index: 3;
-}
-
-
-
-.jumbo-content h1 {
-    margin-left: 2.7rem;
-}
-
-.mini-menu {
-    position: relative;
-    z-index: 24;
-    border-radius: 5%;
-    /* display: inline; */
-    height: 45vh;
-    box-shadow: -10px 10px rgb(0, 0, 0, 0.2);
-
-    margin: 0%;
-    margin-top: 28%;
-    margin-left: 12%;
-    padding: 2.5%;
-    width: 81vh;
-    background: linear-gradient(-170deg, #f9f5e8 75%, rgba(228, 226, 218, 0.8) 50%);
-    border-top: 0.5px solid black;
-    border-right: 0.5px solid black;
-}
-
-.mini-menu p {
-    padding: 0.3rem;
-    font-size: larger;
-}
-
-.jumbo-header {
-    font-size: 6.5rem;
-    z-index: 7;
-    position: relative;
-}
 
 
 .jumbo-subheader {
-    margin-top: 0.5% !important;
-    text-align: left;
-    font-size: 2rem;
-    margin-left: 1.5rem;
+    background-color: rgb(63, 62, 75);
+    color: #ffffff;
+    width: auto;
+    margin-top: -3%;
 }
 
-
-.clean-grey {
-    padding: 2rem;
-    position: absolute;
-    border-radius: 0 29% 0 0;
-    height: 105vh;
-    width: 58vw;
-    padding-left: 15%;
-    z-index: -1;
-
-}
-
-.icons {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 4rem;
-    margin-top: 26rem;
-}
-
-.icon {
-    font-size: 4rem;
-    padding: 1rem;
-    padding-top: 0rem;
-    padding-right: 0.3rem;
-    justify-content: space-evenly;
-}
-
-.button {
-    margin-top: 2rem;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+.jumbo-subheader-2 {
+    background-color: rgb(63, 62, 75);
+    color: #ffffff;
+    width: auto;
 }
 
