@@ -11,6 +11,11 @@
     position: relative;
 }
 
+html::before {
+    content: none;
+    background-image: none;
+}
+
 body::before {
     content: "";
     position: absolute;
