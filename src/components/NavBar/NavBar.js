@@ -5,6 +5,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function NavBar() {
   const [scrolled, setScrolled] = useState(false);
@@ -37,11 +38,18 @@ const scrollToTop = () => {
   });
 };
 
+const navigate = useNavigate();
+
+  const handleNameClick = () => {
+    scrollToTop();
+    navigate('/');
+  };
+
     return (
       <>
         <header>
           <nav className={`nav-nav ${scrolled ? "scrolled" : ""}`}>
-            <p className="name" onClick={scrollToTop}>Matt Gaarder</p>
+            <p className="name" onClick={handleNameClick}>Matt Gaarder</p>
             <ul className="nav-items">
               <CustomLink to="/about">About</CustomLink>
               <CustomLink to="/thoughts">Thoughts</CustomLink>

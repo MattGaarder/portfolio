@@ -18,6 +18,8 @@
     box-shadow: none;
     /* margin-top: -5%; */
     transition: all 0.3s;
+    margin-top: 0;
+    
   }
 
 .scrolled {

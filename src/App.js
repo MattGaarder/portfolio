@@ -8,30 +8,18 @@ import { Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Thoughts from "./pages/Thoughts";
 import Something from "./pages/Something";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
       <NavBar />
         <Routes>
+          <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/thoughts" element={<Thoughts />} /> 
           <Route path="/something" element={<Something />} />
         </Routes>
-      <MainContent />
-      <div className="grid-container">
-        {projects.map((p) => (
-          <ProjectCard
-            id={p.id}
-            title={p.title}
-            images={p.images}
-            deployed={p.deployed}
-            repo={p.repo}
-            summary={p.summary}
-            technology={p.technology}
-          />
-        ))}
-      </div>
       {/* <CoolCounter />
       <ProgressBar /> */}
     </>

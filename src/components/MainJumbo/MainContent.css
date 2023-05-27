@@ -2,19 +2,20 @@
 
 .jumbo {
     display: flex;
-    height: 53vh;
+    height: 61vh;
     width: 100vw;
     border-bottom: 1px solid black;
-    padding-top: 1%;
+    padding-top: 5%;
+    margin-top: 0;
     align-items: center; /* This centers vertically */
     justify-content: center;
-    margin-top: 2.2%;
 }
 
 .selfport {
     max-width: 100%;
     max-height: 100%;
     padding-right: 15rem;
+    padding-top: 1rem;
 }
 
 .hero {
