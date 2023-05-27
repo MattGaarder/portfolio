@@ -11,10 +11,7 @@
     position: relative;
 }
 
-html::before {
-    content: none;
-    background-image: none;
-}
+
 
 body::before {
     content: "";
@@ -32,4 +29,9 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #f1f1f7;
     margin: 0;
+}
+
+html::before {
+    content: none;
+    background-image: none;
 }
