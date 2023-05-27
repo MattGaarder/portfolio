@@ -22,6 +22,16 @@
     
   }
 
+  .mode {
+    padding: 1rem;
+    padding-top: 1.3rem;
+    padding-right: 3.4rem;
+    padding-left: 3.4rem ;
+    border-left: 1px solid var(--my-blue);
+    margin-left: 20px;
+    margin-right: -9rem;
+  }
+
 .scrolled {
   box-shadow: 1px 4px 1px 1px rgba(0, 0, 0, 0.2);
 }

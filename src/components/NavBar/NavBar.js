@@ -55,6 +55,9 @@ const navigate = useNavigate();
               <CustomLink to="/thoughts">Thoughts</CustomLink>
               <CustomLink to="/something">Something</CustomLink>
             </ul>
+            <div className="mode">
+              <p>Mode</p>
+            </div>
             <div className="link-icons">
               <a href="https://github.com/MattGaarder" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="nav-icon" icon={faGithub} /></a>
               <a href="https://www.linkedin.com/in/matteus-gaarder-991494178/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="nav-icon" icon={faLinkedin} /></a>

@@ -1,0 +1,13 @@
+.about-grid-container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "";
+    grid-gap: 5px;
+    padding-top: 5%;
+}
+
+.about-container {
+    border: 1px solid var(--my-blue);
+
+}
