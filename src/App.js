@@ -2,7 +2,7 @@ import React from "react";
 // import ProjectCard from "./components/ProjectCard/ProjectCard";
 // import MainContent from "./components/MainJumbo/MainContent";
 // import NavBar from "./components/NavBar/NavBar";
-import {ProjectCard, MainContent, NavBar, CoolCounter, ProgressBar} from './components'
+import {ProjectCard, MainContent, NavBar } from './components'
 import projects from "./projects.json";
 import { Route, Routes } from "react-router-dom";
 import About from "./pages/About";
