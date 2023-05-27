@@ -12,8 +12,8 @@ function MainContent() {
         <img className="selfport" src={selfport} alt="background-texture"></img>
       </div>
       <div className="hero">
-          <h1 className="jumbo-subheader">Niche web projects, illustration,</h1>
-          <h1 className="jumbo-subheader-2">& handcrafted CSS</h1>
+          <h1 className="jumbo-subheader">Front-End Development, illustration,</h1>
+          <h1 className="jumbo-subheader-2">React & Creative Suite</h1>
       </div>
     </>
   );

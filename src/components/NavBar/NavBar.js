@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect }  from "react";
 import "./NavBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -6,10 +6,32 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 function NavBar() {
+  const [scrolled, setScrolled] = useState(false);
+
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 5 ) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+        window.removeEventListener('scroll', handleScroll);
+    };
+}, []); // Empty dependency array to run only on mount and unmount
+
+  let navbarClasses = ['nav-nav'];
+  if (scrolled) {
+    navbarClasses.push('scrolled');
+  }
     return (
       <>
         <header>
-          <nav className="nav-nav">
+          <nav className={`nav-nav ${scrolled ? "scrolled" : ""}`}>
             <p className="name">Matt Gaarder</p>
             <ul className="nav-items">
               <p>About</p>

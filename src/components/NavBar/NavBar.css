@@ -11,7 +11,18 @@
     width: 100vw;
     height: auto;
     border-bottom: 1px solid var(--my-blue);
+    position: fixed;
+    z-index: 100;
+    background-color: #f1f1f7;
+    background-image: url(../../assets/clean-gray-paper.png);
+    box-shadow: none;
+    margin-top: -5%;
+    transition: all 0.3s;
   }
+
+.scrolled {
+  box-shadow: 1px 4px 1px 1px rgba(0, 0, 0, 0.2);
+}
 
 
 .nav-items {
@@ -54,6 +65,14 @@
 
 .nav-icon:hover {
   color: #094b92; /* change the color when hover */
+}
+
+.nav-items > p:hover {
+  color: #094b92;
+}
+
+.name:hover {
+  color: #094b92;
 }
 
 .pdf {

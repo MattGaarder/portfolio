@@ -49,7 +49,7 @@
   {
     "id": "project6",
     "title": "Team Page Builder",
-    "images": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWY3NTcxZTc1ODg5ZDg4NGFkNTdhMzhiZTM3YjAxNTJkMjU2YTFkMSZjdD1n/DoHFVICa66Y0ZSNZqv/giphy.gif", "../assets/image-assets/background_cow3.png"],
+    "images": ["/teambuilder.png", "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWY3NTcxZTc1ODg5ZDg4NGFkNTdhMzhiZTM3YjAxNTJkMjU2YTFkMSZjdD1n/DoHFVICa66Y0ZSNZqv/giphy.gif"],
     "deployed": "TBC",
     "repo": "https://github.com/MattGaarder/mgaarder-portfolio",
     "summary": "A command-line application that generates an HTML webpage from user input. The user is asked a series of prompts about their team and this is fully generated and formatted with HTML and CSS.",
@@ -58,10 +58,10 @@
   {
     "id": "project7",
     "title": "README.md Generator",
-    "images": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGM3MDVmYTRiZDkyMDM4YmQ5OWQzNWUzMWY1NzA5MmRjYjA2Yjg5ZSZjdD1n/HbVX9TkQKmc0mOLV4C/giphy.gif", "../assets/image-assets/background_cow3.png"],
+    "images": ["/readme.png", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGM3MDVmYTRiZDkyMDM4YmQ5OWQzNWUzMWY1NzA5MmRjYjA2Yjg5ZSZjdD1n/HbVX9TkQKmc0mOLV4C/giphy.gif"],
     "deployed": "https://mattgaarder.github.io/weather-dashboard/",
     "repo": "https://github.com/MattGaarder/weather-dashboard",
     "summary": "A command-line application that dynamically generates README.md documentation from a user's input. node.js will dynamically generate this document in the project's repository.",
-    "technology": ["inquirer", "Node.js", "ajax", "Persistent storage"]
+    "technology": ["inquirer", "Node.js", "ajax", "fs = require('fs');"]
   }
 ]

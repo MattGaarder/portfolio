@@ -23,8 +23,8 @@ function App() {
           />
         ))}
       </div>
-      <CoolCounter />
-      <ProgressBar />
+      {/* <CoolCounter />
+      <ProgressBar /> */}
     </>
   );
 }
