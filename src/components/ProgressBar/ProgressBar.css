@@ -39,9 +39,9 @@
     width: 350px;
 }
 
-.progress-container::before {
+/* .progress-container::before {
     content: '';
-    /* don't forget to add an empty string as content on before and after pseudo-selectors */
+    don't forget to add an empty string as content on before and after pseudo-selectors
     background-color: var(--line-border-empty);
     position: absolute;
     top: 50%;
@@ -50,7 +50,7 @@
     width: 100%;
     transform: translateY(-50%); 
     z-index: -1;
-}
+} */
 
 .progress {
     background-color: var(--line-border-fill);
