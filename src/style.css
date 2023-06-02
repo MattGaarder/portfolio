@@ -11,6 +11,10 @@
     position: relative;
 }
 
+*::before {
+    content: none !important;
+  }
+
 
 
 body::before {
