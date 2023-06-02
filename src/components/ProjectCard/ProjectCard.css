@@ -272,10 +272,6 @@ button {
 
 
 
-button.prev {
-  /* left: 10px; */
-  /* background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, transparent 100%); */
-}
 
 button.prev:hover {
   /* left: 10px; */
