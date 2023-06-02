@@ -16,7 +16,8 @@
     "deployed": "https://main--endearing-sundae-33b843.netlify.app/",
     "repo": "https://github.com/MattGaarder/vibely",
     "summary": "Vibely is my bootcamp final team project. We wanted to challenge ourselves to reverse-engineer a twitter-like social media app with user-authentication and real-time database updates using firebase for back-end functionality.",
-    "technology": ["React", "Material UI", "Netlify", "Firebase"]
+    "technology": ["React", "Material UI", "Netlify", "Firebase"],
+    "links": ["https://github.com/MattGaarder/vibely", "https://main--endearing-sundae-33b843.netlify.app"]
   },
 
   {
@@ -26,7 +27,8 @@
     "deployed": "https://mattgaarder.github.io/daily-planner/",
     "repo": "https://github.com/MattGaarder/daily-planner",
     "summary": "Weather app that allows users to save interested cities and display a five-day forecast and current weather when needed.",
-    "technology": ["Moment.js", "OpenWeather API", "Bootstrap"]
+    "technology": ["Moment.js", "OpenWeather API", "Bootstrap"],
+    "links": ["https://github.com/MattGaarder/weather-dashboard", "https://mattgaarder.github.io/weather-dashboard/"]
   },
   {
     "id": "project4",
@@ -35,7 +37,8 @@
     "deployed": "https://mattgaarder.github.io/weather-dashboard/",
     "repo": "https://github.com/MattGaarder/weather-dashboard",
     "summary": "A day-scheduler that allows users to save events by the hour, and dynamically colour-codes future and past events.",
-    "technology": ["Moment.js", "jQuery", "Bootstrap"]
+    "technology": ["Moment.js", "jQuery", "Bootstrap"],
+    "links": ["https://github.com/MattGaarder/daily-planner", "https://mattgaarder.github.io/daily-planner/"]
   },
   {
     "id": "project5",
@@ -44,7 +47,8 @@
     "deployed": "https://github.com/MattGaarder/code-quiz",
     "repo": "https://github.com/MattGaarder/code-quiz",
     "summary": "An application that can be used to generate a random password based on user-selected criteria.",
-    "technology": ["Bootstrap", "JavaScript", "HTML", "CSS"]
+    "technology": ["Bootstrap", "JavaScript", "HTML", "CSS"],
+    "links": ["https://github.com/MattGaarder/password-generator"]
   },
   {
     "id": "project6",
@@ -53,7 +57,8 @@
     "deployed": "TBC",
     "repo": "https://github.com/MattGaarder/mgaarder-portfolio",
     "summary": "A command-line application that generates an HTML webpage from user input. The user is asked a series of prompts about their team and this is fully generated and formatted with HTML and CSS.",
-    "technology": ["Node.js", "jest", "inquirer", "npm"]
+    "technology": ["Node.js", "jest", "inquirer", "npm"],
+    "links": ["https://github.com/MattGaarder/team-profile-generator"]
   },
   {
     "id": "project7",
@@ -62,6 +67,7 @@
     "deployed": "https://mattgaarder.github.io/weather-dashboard/",
     "repo": "https://github.com/MattGaarder/weather-dashboard",
     "summary": "A command-line application that dynamically generates README.md documentation from a user's input. node.js will dynamically generate this document in the project's repository.",
-    "technology": ["inquirer", "Node.js", "ajax", "fs = require('fs');"]
+    "technology": ["inquirer", "Node.js", "ajax", "fs = require('fs');"],
+    "links": ["https://github.com/MattGaarder/readme-generator"]
   }
 ]

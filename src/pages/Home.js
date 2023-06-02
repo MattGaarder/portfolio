@@ -9,7 +9,6 @@ import projects from "../projects.json";
 function Home() {
   return (
     <>
-      <NavBar />
       <MainContent />
       <div className="grid-container">
         {projects.map((p) => (

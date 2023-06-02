@@ -1,8 +1,8 @@
 import React from "react";
 import "./ProjectCard.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
-// import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 
 import { useState } from "react";
@@ -42,15 +42,14 @@ function ProjectCard(props) {
             {props.technology.map((tech, index) => (
               <p key={index}>{tech}</p>
             ))}
-            {/* <p>||</p> */}
-            {/* <ul>
+            <ul>
               <a href={props.repo} target="_blank" rel="noopener noreferrer" className="technology-icon technology-icon-github">
                 <FontAwesomeIcon icon={faGithubSquare} />
               </a>
               <a href={props.deployed} target="_blank" rel="noopener noreferrer" className="technology-icon technology-icon-link">
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </a>
-            </ul> */}
+            </ul>
           </div>
         </div>
       </div>
