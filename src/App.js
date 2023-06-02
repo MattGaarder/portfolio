@@ -13,7 +13,7 @@ import Home from "./pages/Home";
 function App() {
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
