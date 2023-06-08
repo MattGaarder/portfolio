@@ -2,8 +2,7 @@ import React from "react";
 import "./ProjectCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
-
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 import { useState } from "react";
 
@@ -14,12 +13,16 @@ function ProjectCard(props) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const nextImage = () => {
-    const nextIndex = currentImageIndex + 1 === props.images.length ? 0 : currentImageIndex + 1;
+    const nextIndex =
+      currentImageIndex + 1 === props.images.length ? 0 : currentImageIndex + 1;
     setCurrentImageIndex(nextIndex);
   };
 
   const prevImage = () => {
-    const prevIndex = currentImageIndex - 1 < 0 ? props.images.length - 1 : currentImageIndex - 1;
+    const prevIndex =
+      currentImageIndex - 1 < 0
+        ? props.images.length - 1
+        : currentImageIndex - 1;
     setCurrentImageIndex(prevIndex);
   };
 
@@ -28,28 +31,34 @@ function ProjectCard(props) {
       <div className={`project-container ${props.id}`}>
         <div className="img-container">
           <button onClick={prevImage} className="prev"></button>
-          <img className="project-gif" alt={props.title} src={props.images[currentImageIndex]} />
+          <img
+            className="project-gif"
+            alt={props.title}
+            src={props.images[currentImageIndex]}
+          />
           <button onClick={nextImage} className="next"></button>
         </div>
         <div className="content">
           <div className="text-content">
-            <h1 className="title">
-              <strong>{props.title}</strong>
-            </h1>
+            <a href={props.repo} target="_blank" rel="noopener noreferrer" className="title-link">
+              <h1 className="title">
+                <strong>{props.title}</strong>
+              </h1>
+            </a>
             <p className="description">{props.summary}</p>
           </div>
           <div className="technologies">
             {props.technology.map((tech, index) => (
               <p key={index}>{tech}</p>
             ))}
-            <ul>
+            {/* <ul>
               <a href={props.repo} target="_blank" rel="noopener noreferrer" className="technology-icon technology-icon-github">
                 <FontAwesomeIcon icon={faGithubSquare} />
               </a>
               <a href={props.deployed} target="_blank" rel="noopener noreferrer" className="technology-icon technology-icon-link">
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </a>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>
