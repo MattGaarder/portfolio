@@ -23,11 +23,9 @@
 .mode {
   padding: 1rem;
   padding-top: 1.3rem;
-  padding-right: 3.4rem;
-  padding-left: 3.4rem;
+  padding-right: 5rem;
+  padding-left: 4.4rem;
   border-left: 1px solid var(--my-blue);
-  margin-left: 20px;
-  margin-right: -9rem;
 }
 
 .scrolled {
@@ -39,6 +37,8 @@
   display: flex;
   list-style: none;
   align-items: center;
+  padding-left: 18%;
+  padding-right: 13%;
 }
 
 .nav-items>li {
@@ -69,7 +69,7 @@
 .link-icons {
   padding-top: 0.2rem;
   padding-right: 2rem;
-  padding-left: 1rem;
+  padding-left: 2rem;
   border-left: 1px solid var(--my-blue);
   align-items: center;
 }
