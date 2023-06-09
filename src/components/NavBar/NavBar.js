@@ -7,7 +7,32 @@ import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
-function NavBar() {
+function NavBar({ setNavbarPositions }) {
+  useEffect(() => {
+    // This logic is used to get the navbar positions
+    const positions = {};
+  
+    [1, 2, 3, 4].forEach((section) => {
+      const element = document.getElementById(`section${section}`);
+      const rect = element.getBoundingClientRect();
+    
+      positions[`section${section}`] = rect;
+    });
+  
+    setNavbarPositions(positions);
+  }, []);
+
+  // Here's what happened in this useEffect:
+  // It's called after the component output has been rendered to the DOM.
+  // We create an empty positions object.
+  // We use forEach to loop over each navbar section.
+  // For each section, we get the element with the corresponding ID from the DOM.
+  // We call getBoundingClientRect on the element to get its position and size.
+  // We store this information in the positions object.
+  // Finally, we call setNavbarPositions to update our state with the positions.
+  
+
+
   const [scrolled, setScrolled] = useState(false);
 
   const handleScroll = () => {
@@ -49,16 +74,16 @@ const navigate = useNavigate();
       <>
         <header>
           <nav className={`nav-nav ${scrolled ? "scrolled" : ""}`}>
-            <p className="name" onClick={handleNameClick}>Matt Gaarder</p>
-            <ul className="nav-items">
+            <p className="name" id="section1" onClick={handleNameClick}>Gaarder</p>
+            <ul className="nav-items" id="section2">
               <CustomLink to="/about">About</CustomLink>
               <CustomLink to="/thoughts">Thoughts</CustomLink>
               <CustomLink to="/something">Something</CustomLink>
             </ul>
-            <div className="mode">
+            <div className="mode" id="section3">
               <p>Mode</p>
             </div>
-            <div className="link-icons">
+            <div className="link-icons" id="section4">
               <a href="https://github.com/MattGaarder" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="nav-icon" icon={faGithub} /></a>
               <a href="https://www.linkedin.com/in/matteus-gaarder-991494178/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="nav-icon" icon={faLinkedin} /></a>
               <a href="https://twitter.com/JelloAudible" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="nav-icon" icon={faTwitter} /></a>

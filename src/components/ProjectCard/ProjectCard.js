@@ -29,18 +29,25 @@ function ProjectCard(props) {
   return (
     <>
       <div className={`project-container ${props.id}`}>
-        <div className="img-container">
-          <button onClick={prevImage} className="prev"></button>
-          <img
-            className="project-gif"
-            alt={props.title}
-            src={props.images[currentImageIndex]}
-          />
-          <button onClick={nextImage} className="next"></button>
-        </div>
+        <a href={props.deployed} target="_blank" rel="noopener noreferrer">
+          <div className="img-container">
+            <button onClick={prevImage} className="prev"></button>
+            <img
+              className="project-gif"
+              alt={props.title}
+              src={props.images[currentImageIndex]}
+            />
+            <button onClick={nextImage} className="next"></button>
+          </div>
+        </a>
         <div className="content">
           <div className="text-content">
-            <a href={props.repo} target="_blank" rel="noopener noreferrer" className="title-link">
+            <a
+              href={props.repo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="title-link"
+            >
               <h1 className="title">
                 <strong>{props.title}</strong>
               </h1>
