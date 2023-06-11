@@ -8,7 +8,7 @@
     height: 100vh;
     display: grid;
     border: 1px solid var(--my-blue);
-    grid-template-areas: "about header header"
+    grid-template-areas: "about header"
                      "main section section";
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 2fr 1fr;
@@ -26,16 +26,9 @@
 
 .main-container {
     grid-area: main;
-    width: 50vw;
+
 }
 
 
 
-.p-element {
-    height: 200%;
-    border: 1px solid var(--my-blue);
-}
 
-.p-element-1 {
-    height: 5%;
-}

@@ -6,7 +6,7 @@
   /* height: 8vh; */
   display: flex;
   /* justify-content: space-between; */
-  width: 90vw;
+  width: 100vw;
   height: auto;
   border-bottom: 1px solid var(--my-blue);
   position: fixed;
@@ -68,7 +68,7 @@
 
 .link-icons {
   padding-top: 0.2rem;
-  padding-right: 4rem;
+
   padding-left: 2rem;
   border-left: 1px solid var(--my-blue);
   align-items: center;
