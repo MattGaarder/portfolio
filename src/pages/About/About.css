@@ -9,8 +9,8 @@
     display: grid;
     border: 1px solid var(--my-blue);
     grid-template-areas: "about header"
-                     "main section section";
-    grid-template-columns: auto auto auto auto;
+                     "main section";
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr 1fr;
 }
 
@@ -29,6 +29,8 @@
 
 }
 
-
+.grid-area {
+    border: 1px solid var(--my-blue);
+}
 
 

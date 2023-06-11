@@ -12,16 +12,16 @@ function About({ navbarPositions}) {
     }
     console.log("this is the width: " + headerWidth)
     const section1Width = navbarPositions.section1?.width || 0;
-    const gridTemplateColumns = `${section1Width}px ${headerWidth}px ${headerWidth}px auto`;
+    const gridTemplateColumns = `${section1Width}px ${headerWidth}px`;
     return (
     <div className="about-grid-container" style={{gridTemplateColumns}}>
-        <div className="about-container" style={{width: `${section1Width}px`}}>
+        <div className="about-container grid-area" style={{width: `${section1Width}px`}}>About
         </div>
-        <div className="header-container" style={{width: `${headerWidth}px`}}>
+        <div className="header-container grid-area" style={{width: `${headerWidth}px`}}>Header
         </div>
-        <div className="main-container">
+        <div className="main-container grid-area" style={{width: `50px`}}>Main
         </div>
-        <div className="about-container4 section-container">
+        <div className="section-container grid-area" style={{width: `100px`}}>Section
         </div>
     </div>
     )
