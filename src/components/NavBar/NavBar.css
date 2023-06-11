@@ -68,7 +68,7 @@
 
 .link-icons {
   padding-top: 0.2rem;
-  padding-right: 2rem;
+  padding-right: 4rem;
   padding-left: 2rem;
   border-left: 1px solid var(--my-blue);
   align-items: center;
@@ -104,3 +104,4 @@
 .pdf {
   font-size: 1.8rem;
 }
+

@@ -9,16 +9,19 @@ import { useNavigate } from "react-router-dom";
 
 function NavBar({ setNavbarPositions }) {
   useEffect(() => {
-    // This logic is used to get the navbar positions
     const positions = {};
+    let totalWidth = 0;
+
   
     [1, 2, 3, 4].forEach((section) => {
       const element = document.getElementById(`section${section}`);
       const rect = element.getBoundingClientRect();
     
+      totalWidth += rect.width;
       positions[`section${section}`] = rect;
     });
-  
+    console.log(positions)
+    console.log("Total Width: ", totalWidth);
     setNavbarPositions(positions);
   }, []);
 

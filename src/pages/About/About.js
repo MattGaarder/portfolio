@@ -1,19 +1,29 @@
 import "./About.css"
 
+
+
+
+
 function About({ navbarPositions}) {
+    console.log(navbarPositions)
+    let headerWidth = 0;
+    if(navbarPositions.section4 && navbarPositions.section2 && navbarPositions.section3){
+      headerWidth = navbarPositions.section2.width + navbarPositions.section3.width + navbarPositions.section4.width;
+    }
+    console.log(headerWidth)
     return (
     <div className="about-grid-container">
-        <div className="about-container1" id="content1" style={{marginLeft: navbarPositions.section1?.left, marginRight: navbarPositions.section1?.right}}>
-            1
+        <div className="about-container" style={{width: navbarPositions.section1?.width}}>
+            <p className="p-element">1</p>
         </div>
-        <div className="about-container2" id="content2" style={{marginLeft: navbarPositions.section2?.left, marginRight: navbarPositions.section2?.right}}>
-            2
+        <div className="header-container" style={{width: `${headerWidth}px`}}>
+            <p className="p-element">2</p>
         </div>
-        <div className="about-container3" id="content3" style={{marginLeft: navbarPositions.section3?.left, marginRight: navbarPositions.section3?.right}}>
-            3
+        <div className="main-container">
+            <p className="p-element">3</p>
         </div>
-        <div className="about-container4" id="content4" style={{marginLeft: navbarPositions.section4?.left, marginRight: navbarPositions.section4?.right}}>
-            4
+        <div className="about-container4 section-container">
+            <p className="p-element">4</p>
         </div>
     </div>
     )

@@ -4,12 +4,38 @@
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "";
     grid-gap: 5px; */
-    padding-top: 10%;
-    display: flex;
+    padding-top: 4%;
+    height: 100vh;
+    display: grid;
     border: 1px solid var(--my-blue);
-
+    grid-template-areas: "about header header"
+                     "main section section";
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 2fr 1fr;
 }
 
-.about-container {
+
+
+.header-container {
+    grid-area: header;
+}
+
+.section-container {
+    grid-area: section;
+}
+
+.main-container {
+    grid-area: main;
+    width: 50vw;
+}
+
+
+
+.p-element {
+    height: 200%;
     border: 1px solid var(--my-blue);
+}
+
+.p-element-1 {
+    height: 5%;
 }
