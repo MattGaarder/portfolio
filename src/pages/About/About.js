@@ -10,7 +10,7 @@ function About({ navbarPositions}) {
     if(navbarPositions.section4 && navbarPositions.section2 && navbarPositions.section3){
       headerWidth = navbarPositions.section2.width + navbarPositions.section3.width + navbarPositions.section4.width;
     }
-    console.log(headerWidth)
+    console.log("this is the width: " + headerWidth)
     return (
     <div className="about-grid-container">
         <div className="about-container" style={{width: navbarPositions.section1?.width}}>
