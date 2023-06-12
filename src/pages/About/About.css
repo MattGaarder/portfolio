@@ -24,7 +24,7 @@
     width: 100vw;
     grid-area: row2;
     grid-template-areas: "main section";
-    grid-template-columns: 8fr 4fr;
+    grid-template-columns: 7fr 5fr;
 }
 
 .about-container {
