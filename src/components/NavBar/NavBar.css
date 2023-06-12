@@ -1,12 +1,17 @@
-.nav-nav {
-  /* background-color: #fef0da;
+
+
+.nav-grid-container {
+    /* background-color: #fef0da;
     background-image: linear-gradient(to bottom right, #fef0da, #f8e2bf); */
   /* background-image: url('../../assets/leather.png');
     opacity: 0.5; */
   /* height: 8vh; */
-  display: flex;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 0px;
   /* justify-content: space-between; */
-  width: 100vw;
+  width: 100%;
   height: auto;
   border-bottom: 1px solid var(--my-blue);
   position: fixed;
@@ -17,15 +22,18 @@
   /* margin-top: -5%; */
   transition: all 0.3s;
   margin-top: 0;
-
+  box-sizing: border-box;
 }
 
 .mode {
-  padding: 1rem;
+  /* padding: 1rem;
   padding-top: 1.3rem;
   padding-right: 5rem;
-  padding-left: 4.4rem;
+  padding-left: 4.4rem; */
   border-left: 1px solid var(--my-blue);
+  grid-column: span 1;
+  grid-column-start: 10; 
+  grid-column-end: 11;
 }
 
 .scrolled {
@@ -34,11 +42,18 @@
 
 
 .nav-items {
-  display: flex;
+  align-items: center;
+  /* padding-left: 18%;
+  padding-right: 13%; */
+  grid-column: span 6;
+
+
   list-style: none;
   align-items: center;
-  padding-left: 18%;
-  padding-right: 13%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-start: 3; 
+  grid-column-end: 9;
 }
 
 .nav-items>li {
@@ -49,6 +64,18 @@
   text-decoration: none;
 }
 
+.nav-items li:nth-child(1) {
+  grid-column: span 2; 
+}
+
+.nav-items li:nth-child(2) {
+  grid-column: span 2;
+}
+
+.nav-items li:nth-child(3) {
+  grid-column: span 2;
+}
+
 .nav-items a:link,
 .nav-items a:visited {
   color: black;
@@ -57,11 +84,14 @@
 }
 
 .name {
-  padding: 1rem;
+  /* padding: 1rem;
   padding-top: 1.3rem;
   padding-right: 3.4rem;
-  padding-left: 3.4rem;
+  padding-left: 3.4rem; */
   border-right: 1px solid var(--my-blue);
+  grid-column: span 1;  
+  grid-column-start: 1; 
+  grid-column-end: 2;
 
 }
 
@@ -70,7 +100,11 @@
   padding-top: 0.2rem;
   padding-left: 2rem;
   border-left: 1px solid var(--my-blue);
-  align-items: center;
+  align-items: flex-end;
+  margin-left: auto;
+  grid-column: span 4;
+  grid-column-start: 11; 
+  grid-column-end: 13;
 }
 
 .nav-icon {
@@ -78,7 +112,7 @@
   /* set the color of the icon */
   font-size: 2.1rem;
   /* set the font size of the icon */
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
   transition: color 0.3s ease;
   /* transition for hover effect */
 }

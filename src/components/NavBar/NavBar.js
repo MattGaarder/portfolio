@@ -16,8 +16,9 @@ function NavBar({ setNavbarPositions }) {
     [1, 2, 3, 4].forEach((section) => {
       const element = document.getElementById(`section${section}`);
       const rect = element.getBoundingClientRect();
-    
+      console.log(rect)
       totalWidth += rect.width;
+      console.log("this is the iterated total width: " + totalWidth);
       positions[`section${section}`] = rect;
     });
     console.log(positions)
@@ -75,8 +76,8 @@ const navigate = useNavigate();
 
     return (
       <>
-        <header>
-          <nav className={`nav-nav ${scrolled ? "scrolled" : ""}`}>
+        <>
+          <nav className={`nav-nav nav-grid-container ${scrolled ? "scrolled" : ""}`}>
             <p className="name" id="section1" onClick={handleNameClick}>Gaarder</p>
             <ul className="nav-items" id="section2">
               <CustomLink to="/about">About</CustomLink>
@@ -95,7 +96,7 @@ const navigate = useNavigate();
               </a>
             </div>
           </nav>
-        </header>
+        </>
       </>
     );
 }

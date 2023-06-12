@@ -1,10 +1,11 @@
 .about-grid-container {
-    padding-top: 4%;
-    height: 100vh;
+    padding-top: 14%;
+    height: 80vh;
+    width: 100vw;
     display: grid;
-    border: 1px solid var(--my-blue);
     grid-template-areas: "row1"
                          "row2";
+    grid-template-columns: repeat(12, 1fr);
 }
 
 .row1 {
@@ -12,6 +13,9 @@
     width: 100vw;
     grid-area: row1;
     grid-template-areas: "about header";
+    grid-template-columns: 1fr 11fr;
+
+
 
 }
 
@@ -20,16 +24,24 @@
     width: 100vw;
     grid-area: row2;
     grid-template-areas: "main section";
-
+    grid-template-columns: 8fr 4fr;
 }
 
 .about-container {
     grid-area: about;
     border: 1px solid var(--my-blue);
+    grid-column: span 1;
+
+    
+}
+
+.about-title {
+    /* transform: rotate(-90deg); */
 }
 
 .header-container {
     grid-area: header;
+    grid-column: span 11;
     border: 1px solid var(--my-blue);
 }
 
