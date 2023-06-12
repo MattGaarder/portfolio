@@ -6,6 +6,7 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import logo from '../../assets/image-assets/logo.png';
 
 function NavBar({ setNavbarPositions }) {
   useEffect(() => {
@@ -78,7 +79,7 @@ const navigate = useNavigate();
       <>
         <>
           <nav className={`nav-nav nav-grid-container ${scrolled ? "scrolled" : ""}`}>
-            <p className="name" id="section1" onClick={handleNameClick}>Gaarder</p>
+            <img src={logo} alt="Company Logo" className="name" id="section1" onClick={handleNameClick}></img>
             <ul className="nav-items" id="section2">
               <CustomLink to="/about">About</CustomLink>
               <CustomLink to="/thoughts">Thoughts</CustomLink>
