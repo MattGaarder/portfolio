@@ -334,6 +334,7 @@ button.next:hover {
 
 .title-link {
   text-decoration: none;
+  color: var(--my-turquoise)
 }
 
 .title-link:visited {
