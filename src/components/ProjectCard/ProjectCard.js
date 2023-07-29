@@ -3,6 +3,7 @@ import "./ProjectCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { faSquareUpRight } from "@fortawesome/free-solid-svg-icons";
 
 import { useState } from "react";
 
@@ -29,7 +30,6 @@ function ProjectCard(props) {
   return (
     <>
       <div className={`project-container ${props.id}`}>
-        <a href={props.deployed} target="_blank" rel="noopener noreferrer">
           <div className="img-container">
             <button onClick={prevImage} className="prev"></button>
             <img
@@ -39,7 +39,6 @@ function ProjectCard(props) {
             />
             <button onClick={nextImage} className="next"></button>
           </div>
-        </a>
         <div className="content">
           <div className="text-content">
             <a
@@ -52,8 +51,11 @@ function ProjectCard(props) {
                 <strong>{props.title}</strong>
               </h1>
             </a>
-            <p className="description">{props.summary}</p>
+            <a href={props.deployed} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon className="visit-site" icon={faSquareUpRight} />
+            </a>
           </div>
+          <p className="description">{props.summary}</p>
           <div className="technologies">
             {props.technology.map((tech, index) => (
               <p key={index}>{tech}</p>

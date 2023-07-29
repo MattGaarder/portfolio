@@ -240,7 +240,7 @@
 
 } */
 
-.project1 .img-container:hover {
+/* .project1 .img-container:hover {
   background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDdkNjkyN2FiNmMxODUzMTVkN2ExOWRiOTZhMzYyODkxYmMwMDBlNiZjdD1n/32AslOrbvFhGKaEO4Q/giphy.gif");
 }
 
@@ -266,7 +266,7 @@
 
 .project7 .img-container:hover {
   background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGM3MDVmYTRiZDkyMDM4YmQ5OWQzNWUzMWY1NzA5MmRjYjA2Yjg5ZSZjdD1n/HbVX9TkQKmc0mOLV4C/giphy.gif");
-}
+} */
 
 .content {
   border-top: 1px solid rgb(146, 151, 152);
@@ -279,7 +279,9 @@
 }
 
 .title {
-  padding: 0.2rem
+  padding: 0.2rem;
+  display: inline;
+  
 }
 
 .project1, .project2, .project7, .project6 {
@@ -326,6 +328,9 @@ button.next:hover {
 
 .text-content {
   color: var(--my-turquoise);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container:hover button {
@@ -333,15 +338,34 @@ button.next:hover {
 }
 
 .title-link {
+  position: relative;
   text-decoration: none;
   color: var(--my-turquoise)
 }
+
+.title-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: var(--my-turquoise);
+  transition: width 0.1s;
+}
+
 
 .title-link:visited {
   text-decoration: none;
   color: var(--my-turquoise)
 }
 
-.title-link:hover {
-  text-decoration: underline;
+.title-link:hover::after {
+  width: 100%; /* or any percentage you'd like for the underline width */
+}
+
+.visit-site {
+  display: inline;
+  font-size: larger;
+  padding-left: 0.2rem;
 }
