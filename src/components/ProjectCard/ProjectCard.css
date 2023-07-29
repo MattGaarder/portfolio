@@ -193,6 +193,10 @@
   
 }
 
+.description {
+  margin-top: 0.5rem;
+  font-size: 17px;
+}
 
 .project-container {
   border-right: 1px solid var(--my-blue);
@@ -350,7 +354,7 @@ button.next:hover {
   left: 0;
   width: 0;
   height: 3px;
-  background: var(--my-turquoise);
+  background: var(--my-blue);
   transition: width 0.1s;
 }
 
@@ -362,10 +366,20 @@ button.next:hover {
 
 .title-link:hover::after {
   width: 100%; /* or any percentage you'd like for the underline width */
+  color: var(--my-blue);
+}
+
+.title-link:hover {
+  color: var(--my-blue);
 }
 
 .visit-site {
   display: inline;
   font-size: larger;
-  padding-left: 0.2rem;
+  padding-left: 0.3rem;
+  color: var(--my-turquoise);
+}
+
+.visit-site:hover {
+  color: var(--my-blue);
 }
