@@ -97,10 +97,8 @@
   grid-column: span 2;  
   grid-column-start: 1; 
   grid-column-end: 3;
-  width: 100px;
+  width: 100%;
   height: auto;
-
-
 }
 
 
@@ -113,6 +111,7 @@
   grid-column-end: 25;
   padding-top: 0.1rem;
   padding-left: 1rem;
+  padding-right: 0.8rem;
 }
 
 .nav-icon {

@@ -25,21 +25,14 @@ function About({ navbarPositions }) {
       className="about-grid-container"
     //   style={{ gridTemplateColumns: `${section1Width}px ${headerWidth}px` }}
     >
-      <div className="row1 grid-area">
-        <div className="about-container">
-          <h1 className="about-title">About</h1>
-        </div>
-        <div className="header-container">
-          Header
-        </div>
+      <div className="about-container">
+        <h1 className="about-title">About</h1>
       </div>
-      <div
-        className="row2 grid-area"
-        // style={{ gridTemplateColumns: "fr 1fr" }}
-      >
-        <div className="main-container">Main</div>
-        <div className="section-container">Section</div>
+      <div className="header-container">
+        Header
       </div>
+      <div className="main-container">Main</div>
+      <div className="section-container">Section</div>
     </div>
   );
 }
