@@ -1,14 +1,17 @@
 .about-grid-container {
     padding-top: 4.33%;
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
     display: grid;
     grid-template-areas: "about header"
     "main section";
     grid-template-columns: repeat(24, 1fr);
+    /* box-sizing: border-box; */
 }
 
-
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
 .about-container {
     grid-area: about;

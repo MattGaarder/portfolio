@@ -12,15 +12,15 @@ import Something from "./pages/Something";
 import Home from "./pages/Home";
 
 function App() {
-  const [navbarPositions, setNavbarPositions] = useState({});
+
 
 
   return (
     <>
-      <NavBar setNavbarPositions={setNavbarPositions} />
+      <NavBar />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/about" element={<About navbarPositions={navbarPositions}/>} />
+          <Route path="/about" element={<About />} />
           <Route path="/thoughts" element={<Thoughts />} /> 
           <Route path="/something" element={<Something />} />
         </Routes>
