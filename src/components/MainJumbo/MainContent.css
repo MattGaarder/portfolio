@@ -2,7 +2,7 @@
 
 .jumbo {
     display: flex;
-    height: 61vh;
+    height: 62.9vh;
     width: 100vw;
     border-bottom: 1px solid black;
     padding-top: 5%;
@@ -27,7 +27,8 @@
     font-size: 1.8rem;
     padding-top: 1.8rem;
     text-align: center;
-    border-bottom: 1px solid var(--my-blue)
+    border-bottom: 1px solid var(--my-blue);
+    background-image: url(../../assets/clean-gray-paper.png);
 }
 
 

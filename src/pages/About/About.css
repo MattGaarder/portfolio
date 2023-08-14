@@ -6,6 +6,7 @@
     grid-template-areas: "about header"
     "main section";
     grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: 43.33vh 56.67vh;
     /* box-sizing: border-box; */
 }
 
@@ -23,7 +24,7 @@
 
 .about-title {
     transform: rotate(-90deg);
-    margin-top: 150%;
+    margin-top: 130%;
 }
 
 .header-container {
@@ -35,14 +36,26 @@
 .section-container {
     grid-area: section;
     border: 1px solid var(--my-blue);
+    grid-column: span 7;
 }
 
 .main-container {
     grid-area: main;
+    grid-column: span 17;
 }
 
 .grid-area {
     border: 1px solid var(--my-blue);
 }
 
+.proficiencies {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
 
+.proficiency {
+    padding: 5%;
+}

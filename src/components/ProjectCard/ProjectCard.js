@@ -30,15 +30,15 @@ function ProjectCard(props) {
   return (
     <>
       <div className={`project-container ${props.id}`}>
-          <div className="img-container">
-            <button onClick={prevImage} className="prev"></button>
-            <img
-              className="project-gif"
-              alt={props.title}
-              src={props.images[currentImageIndex]}
-            />
-            <button onClick={nextImage} className="next"></button>
-          </div>
+        <div className="img-container">
+          <button onClick={prevImage} className="prev"></button>
+          <img
+            className="project-gif"
+            alt={props.title}
+            src={props.images[currentImageIndex]}
+          />
+          <button onClick={nextImage} className="next"></button>
+        </div>
         <div className="content">
           <div className="text-content">
             <a
