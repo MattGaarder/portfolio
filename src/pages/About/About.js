@@ -21,17 +21,17 @@ function About() {
           <div className="creative proficiency">
             <h1>Creative</h1>
             <ul>
-              <li>HTML, CSS, Bootstrap</li>
-              <li>JavaScript, jQuery</li>
-              <li>React, Node.js</li>
+              <li>Photoshop, InDesign</li>
+              <li>Premiere, AfterEffects</li>
+              <li>3DS Max, Maya</li>
             </ul>
           </div>
           <div className="misc proficiency">
             <h1>Misc</h1>
             <ul>
-              <li>HTML, CSS, Bootstrap</li>
-              <li>JavaScript, jQuery</li>
-              <li>React, Node.js</li>
+              <li>Illustrator</li>
+              <li>Japanese Speaker</li>
+              <li>Climber</li>
             </ul>
           </div>
         </div>
